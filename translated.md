@@ -114,165 +114,8 @@ the following [script](https://github.com/doroshv/llm-examples/blob/main/transla
       - 14.4.2 Rapidly Rotating Neutron Stars
       - 14.4.3 Binary Stars
 
---- 
 
-### Figure Captions:
-- ![Black hole destroys a star: animation](http://images.astronet.ru/si/apod.gif)
-- ![Stars, dust, and nebula in NGC 6559](http://images.astronet.ru/si/apod.gif)
-- ![25 brightest stars in the night sky](http://images.astronet.ru/si/apod.gif)
-- ![Animation: black hole destroys a star](http://images.astronet.ru/si/apod.gif)
-- ![Decomposing distant light](http://images.astronet.ru/si/apod.gif)
-- ![Comparison of star sizes](http://images.astronet.ru/si/apod.gif)
-- ![The most distant known star?](http://images.astronet.ru/si/apod.gif)## 1. Introduction: Space-Time Scales in Astrophysics
-
-The range of time scales and distances that we encounter in astrophysics is quite broad. Due to the finite speed of light $c$, there exists a fundamental relationship between the characteristic scales $l$ of the phenomenon under consideration and the characteristic minimum time $t_{\text{min}}$ at which, for example, one could expect variability in the electromagnetic radiation generated at that scale, expressed as $t_{\text{min}} = \frac{l}{c}$. Another crucial characteristic of any astrophysical object is its mass $M$. In each specific case (e.g., a star, planet, galaxy), the mass $M$ can be associated with a characteristic scale $l$.
-
-The minimum size $l_{min}$, corresponding to a macroscopic mass $M$, is determined by gravitational interactions and is approximately equal to the gravitational radius:
-
-$$l_{min} \sim R_{g} = \frac{2GM}{c^{2}} \approx (3 \, \text{km}) \left( \frac{M}{M_{\odot}} \right)$$
-
-where $G \approx 6.67 \times 10^{-8} \, \text{cm}^{3}/\text{g} \cdot \text{s}^{2}$ is Newton's gravitational constant.
-
-As long as the size of the object being studied is large compared to its gravitational radius $R_g$, Newtonian physics is sufficient to describe the physical processes involved. Otherwise, relativistic effects, as predicted by General Relativity, become significant and even dominant.
-
-### Examples
-- The Sun: $R \approx 700,000 \, \text{km}$, $R_g \approx 3 \, \text{km}$.
-- A Jupiter-like planet: $M_{Jp} \sim 10^{-3} M_{\odot}$, $R_g(M_{Jp}) \sim 3 \, \text{km} \ll R_{Jp}$.
-- A neutron star: $R \sim 10 \, \text{km}$, which leads to significant relativistic corrections.
-- A non-rotating black hole has an event horizon radius equal to the gravitational radius, and thus is entirely a relativistic object.
-- The universe as a whole has a gravitational radius 
-
-$$R_g \sim \frac{c}{H_{0}}$$
-
-where $H_{0}$ is the current value of the Hubble constant, and should also be considered within the framework of relativistic theory (General Relativity). 
-
-These examples illustrate the necessity of analyzing the gravitational dynamics of objects in the cosmos through a relativistic lens when their size approaches significant fractions of their associated gravitational radii.# Table of Contents  
-
-1. **Introduction: Spacetime Scales in Astrophysics**  
-   1.1 Angular and Photometric Distances  
-   1.2 Timescales  
-   1.3 Masses  
-   1.4 Solar Units  
-   1.5 Planck Units  
-   1.6 Dimensionless Numbers  
-   
-2. **Radiation: Basics of Radiative Transfer Theory**  
-   2.1 The Radiative Transfer Equation  
-      2.1.1 Basic Definitions  
-      2.1.2 Macroscopic Characteristics of Radiation  
-      2.1.3 Constancy of Specific Intensity Along a Ray in Empty Space  
-   2.2 The Transfer Equation  
-      2.2.1 Emission Coefficient  
-      2.2.2 Absorption Coefficient  
-      2.2.3 The Transfer Equation  
-      2.2.4 Optical Thickness: Connection to Mean Free Path  
-      2.2.5 Source Function  
-      2.2.6 Formal Solution of the Transfer Equation  
-   2.3 Thermal Radiation  
-      2.3.1 Black Body Radiation  
-      2.3.2 Planck's Law for Black Bodies  
-   2.4 Characteristic Temperatures of Astrophysical Sources  
-
-3. **Features and Physical Limitations of Astrophysical Observations**  
-   3.1 The Main Task of Observational Astronomy  
-   3.2 Telescopes and Radiation Detectors  
-   3.3 Astronomical Intermezzo: Stellar Magnitudes  
-   3.4 Physical Limits on the Accuracy of Astronomical Observations  
-   3.5 On the Accuracy of Measuring Light Fluxes  
-   3.6 Literature  
-
-4. **Interstellar Medium**  
-   4.1 Physical Features of Cosmic Plasma States  
-   4.2 21 cm Neutral Hydrogen Line  
-   4.3 Clouds of Neutral Hydrogen HI and Thermal Instability of the Interstellar Medium  
-   4.4 Ionized Hydrogen and HII Regions  
-   4.5 Molecular Clouds, Star-Formation Regions, and Cosmic Masers  
-   4.6 Cosmic Rays and Synchrotron Radiation  
-   4.7 Other Methods for Diagnosing Cosmic Plasma  
-   4.8 Literature  
-
-5. **Stars**  
-   5.1 General Information  
-   5.2 Star Formation  
-   5.3 Protostars  
-   5.4 Stationary Stars  
-
-6. **Stars (continued)**  
-   6.1 Nuclear Reactions in Stars  
-   6.2 Features of Nuclear Reactions in Stars  
-   6.3 M-L and M-R Relations for Main Sequence Stars  
-
-7. **Star Evolution**  
-   7.1 Star Evolution After the Main Sequence  
-   7.2 Degeneracy of Matter  
-   7.3 Chandrasekhar Limit and Fundamental Mass of a Star  
-   7.4 Neutronization of Matter and Loss of Star Stability  
-   7.5 Supernova Explosions  
-
-8. **Remnants of Stellar Evolution**  
-   8.1 White Dwarfs  
-   8.2 Neutron Stars  
-   8.3 Black Holes  
-   8.4 Pulsars  
-   8.5 Literature  
-
-9. **Galaxies: General Information and Quasars**  
-   9.1 Galaxies: General Information  
-   9.2 Quasars and Active Galactic Nuclei  
-   9.3 Eddington Limit for Luminosity During Accretion onto Compact Relativistic Objects  
-   9.4 Black Holes in the Centers of Normal Galaxies and the Relation Between Black Hole Mass and Bulge Mass  
-
-10. **Cosmology**  
-   10.1 Friedmann Cosmology  
-   10.2 Friedmann Models with Cosmological Constant  
-   10.3 Literature  
-
-11. **Cosmology (continued)**  
-   11.1 Light Propagation: Redshift  
-      11.1.1 Horizon  
-      11.1.2 Distances  
-      11.1.3 Surface Brightness and Olbers' Paradox  
-   11.2 Hot Universe  
-   11.3 Primordial Nucleosynthesis ("The First Three Minutes")  
-      11.3.1 Constraints on the Number of Neutrino Types from Primordial Nucleosynthesis  
-   11.4 Cosmic Microwave Background Radiation and the Recombination Era  
-   11.5 Fluctuations in Cosmic Microwave Background Radiation  
-
-12. **Cosmology (continued II)**  
-   12.1 Challenges of Classical Cosmology  
-      12.1.1 The Horizon Problem (Causality Problem)  
-      12.1.2 The Flatness Problem  
-   12.2 Inflationary Universe Model  
-   12.3 Growth of Small Perturbations  
-      12.3.1 Gravitational (Jeans) Instability  
-   12.4 Formation of Large-Scale Structure of the Universe  
-
-13. **Dark Matter and Gravitational Lenses**  
-
-14. **Gravitational Wave Astronomy**  
-   14.1 Description  
-   14.2 Detection of Gravitational Waves  
-   14.3 Gravitational Wave Emission  
-   14.4 Astrophysical Sources of Gravitational Waves  
-      14.4.1 Supernova Flares  
-      14.4.2 Rapidly Rotating Neutron Stars  
-      14.4.3 Binary Stars  
-
----
-
-**Publications with keywords:**  
-- Stars  
-- Interstellar Medium  
-- Cosmology  
-- Theoretical Astrophysics  
-- Astrophysics  
-
-**Publications with phrases:**  
-- Stars  
-- Interstellar Medium  
-- Cosmology  
-- Theoretical Astrophysics  
-- Astrophysics  ## 1. Introduction: Space-Time Scales in Astrophysics
+## 1. Introduction: Space-Time Scales in Astrophysics
 
 The range of time scales and distances dealt with in astrophysics is quite extensive. Due to the finite speed of light $c$, a fundamental relationship exists between the characteristic scales $l$ of the phenomenon under consideration and the characteristic minimum time $t_{\text{min}}$ on which one can expect variability of electromagnetic radiation generated at this scale: 
 
@@ -292,7 +135,8 @@ The gravitational radius $R_g$ is relevant for understanding the structure of as
 - A non-rotating black hole whose event horizon radius equals the gravitational radius (this is a fully relativistic object);
 - The Universe as a whole, with a gravitational radius $R_g \sim \frac{c}{H_0}$, where $H_0$ is the current value of the Hubble constant, also needs to be considered within the framework of relativistic theory (General Relativity).
 
-In summary, the appropriate understanding of spatial and temporal scales in astrophysics allows us to classify objects and predict their behaviors under different gravitational regimes.## 1.1 Distances
+In summary, the appropriate understanding of spatial and temporal scales in astrophysics allows us to classify objects and predict their behaviors under different gravitational regimes.
+## 1.1 Distances
 
 In modern astrophysics, a variety of non-standard units are used depending on the situation or task at hand. This is due to the fact that the ranges of quantities being considered differ by many orders of magnitude. Let’s briefly enumerate the main units for measuring distances.
 
@@ -334,7 +178,8 @@ Interestingly, the characteristic wavelength of photons emitted by atoms during 
 $$E_b = 13.6 \, \text{eV}$$,
 and during transitions from the upper level to the lower one, a photon acquires energy on the order of the binding energy of the electron, $\Delta E \sim E_b$, leading to the characteristic wavelength of visible light being approximately 
 $$\lambda_{opt} \sim \frac{2 \pi a_0}{\alpha} \sim 1000 a_0$$, 
-i.e., hundreds and thousands of angstroms.## 1.2 Times
+i.e., hundreds and thousands of angstroms.
+## 1.2 Times
 
 Let's provide examples of some characteristic times that arise in various astrophysical problems.
 
@@ -350,7 +195,9 @@ Let's provide examples of some characteristic times that arise in various astrop
 
 6. The current age of the Universe (Hubble age) is roughly equal to the inverse of the Hubble constant:
 
-$$t_{max} = t_{H} \simeq \frac{1}{H_{0}} \simeq 1.5 \times 10^{10} \text{ years}.$$## 1.3 Masses
+$$t_{max} = t_{H} \simeq \frac{1}{H_{0}} \simeq 1.5 \times 10^{10} \text{ years}.$$
+
+## 1.3 Masses
 
 The masses involved in astrophysical problems vary by many orders of magnitude.
 
@@ -363,7 +210,10 @@ The masses involved in astrophysical problems vary by many orders of magnitude.
 4. The mass of luminous stars in the Milky Way, which is a typical galaxy, can be represented as $$M_G \approx 10^{11} M_\odot$$.
 
 5. The Planck mass, which is the maximum possible mass of an elementary particle, is defined by the equation 
-   $$m_{pl} = \sqrt{\frac{c h}{G}} \simeq 10^{-5} \text{ g} \approx 10^{19} \text{ GeV}$$.## 1.4 Solar Units
+   $$m_{pl} = \sqrt{\frac{c h}{G}} \simeq 10^{-5} \text{ g} \approx 10^{19} \text{ GeV}$$
+   
+
+## 1.4 Solar Units
 
 In the study of stars, it is common practice to use solar units for mass, radius, and luminosity.
 
@@ -385,7 +235,10 @@ Another example is the radius of the last stable circular orbit for a particle a
 
 $$3R_g$$. 
 
-These expressions underscore the significance of gravitational effects in the realm of black holes and neutron stars, where traditional solar units may not adequately convey the underlying physics.## 1.5 Planck Units
+These expressions underscore the significance of gravitational effects in the realm of black holes and neutron stars, where traditional solar units may not adequately convey the underlying physics.
+
+
+## 1.5 Planck Units
 
 Planck units are a set of measurement units for length, mass, time, charge, and their derived values, constructed from fundamental physical constants: the gravitational constant $G$ (which governs gravity), the Planck constant $\hbar$ (which relates to quantum phenomena), and the speed of light $c$ (which underpins electromagnetism and relativity, both special and general).
 
@@ -420,7 +273,9 @@ $$\frac{E_{pl}}{t_{pl}} = \frac{c^5}{G} \simeq 10^{59}.$$
 
 $$\frac{m_{pl}}{l_{pl}^{3}}.$$
 
-These quantities will become significant when we consider physical processes under extreme conditions, such as during the early stages of the Universe's expansion. At distances or times smaller than these Planck scales, our current understanding of physics "breaks down" and necessitates the laws of a yet-to-be-established theory of quantum gravity. We will not delve deeply into these intriguing, but unsolved, issues in our general course.## 1.6 Dimensionless Numbers
+These quantities will become significant when we consider physical processes under extreme conditions, such as during the early stages of the Universe's expansion. At distances or times smaller than these Planck scales, our current understanding of physics "breaks down" and necessitates the laws of a yet-to-be-established theory of quantum gravity. We will not delve deeply into these intriguing, but unsolved, issues in our general course.
+
+## 1.6 Dimensionless Numbers
 
 In astrophysics, there are several important dimensionless numbers. Here are some of them that we will explore further.
 
@@ -448,9 +303,13 @@ In astrophysics, there are several important dimensionless numbers. Here are som
 
    This number plays a fundamental role in the theory of the hot Universe, and the enormous surplus of photons over baryons is interpreted as evidence of baryon asymmetry in the Universe (the absence of an equal number of antiparticles).
 
-These straightforward estimates and relationships demonstrate a profound physical connection between the micro and macro worlds. The universe is not structured at random; rather, among an infinite number of possibilities, it is precisely the arrangement chosen by fundamental physical interactions that prevails.## 2. Radiation. Basics of Radiation Transfer Theory
+These straightforward estimates and relationships demonstrate a profound physical connection between the micro and macro worlds. The universe is not structured at random; rather, among an infinite number of possibilities, it is precisely the arrangement chosen by fundamental physical interactions that prevails.
 
-The primary source of information about celestial bodies remains electromagnetic radiation. From ancient times until the mid-20th century, observations were conducted in the optical range of the electromagnetic spectrum (wavelength $3200 - 7000 \, \text{Å}$). The Earth's atmosphere does not transmit short-wavelength radiation, which is why ultraviolet, X-ray, and gamma radiation from celestial objects began to be studied only from the 1960s onward, when it became possible to launch detectors for hard radiation into the upper layers of the atmosphere and beyond, using specialized artificial satellites. Radio observations of cosmic sources began shortly after World War II in connection with the development of radar techniques.## 2.1 The Equation of Radiation Transfer
+## 2. Radiation. Basics of Radiation Transfer Theory
+
+The primary source of information about celestial bodies remains electromagnetic radiation. From ancient times until the mid-20th century, observations were conducted in the optical range of the electromagnetic spectrum (wavelength $3200 - 7000 \, \text{Å}$). The Earth's atmosphere does not transmit short-wavelength radiation, which is why ultraviolet, X-ray, and gamma radiation from celestial objects began to be studied only from the 1960s onward, when it became possible to launch detectors for hard radiation into the upper layers of the atmosphere and beyond, using specialized artificial satellites. Radio observations of cosmic sources began shortly after World War II in connection with the development of radar techniques.
+
+## 2.1 The Equation of Radiation Transfer
 
 To quantitatively understand the processes occurring in astrophysical sources, we need to familiarize ourselves with the macroscopic theory of electromagnetic radiation transfer in a medium.
 
@@ -586,7 +445,9 @@ $$I_1 = I_2.$$
 
 This property of the specific intensity can be rephrased: 
 
-$$I = \text{const}$$ along the path, provided there are no additional sources of radiation or absorption.## 2.2 Radiation Transfer Equation
+$$I = \text{const}$$ along the path, provided there are no additional sources of radiation or absorption.
+
+## 2.2 Radiation Transfer Equation
 
 Let us proceed to describe the propagation of radiation in a medium with which the radiation interacts. The interaction between radiation and matter can be considered on various physical levels. For our purposes, it is sufficient to introduce macroscopic coefficients of emission and absorption of light, although the calculation of these coefficients as functions of photon frequency and the physical characteristics of the medium is conducted using classical electrodynamic and quantum methods.
 
@@ -666,7 +527,9 @@ As $\tau_{\nu} \rightarrow \infty$, we find that $I_\nu \rightarrow S_\nu$, indi
 Spectral lines (of emission or absorption) form when there are discrete frequencies at which the microscopic coefficients of emission and absorption exhibit extrema. For instance, let’s say the absorption coefficient has a sharp maximum at frequency $\nu_0$. If the source function does not vary with depth, several scenarios for the observed radiation can occur depending on the optical thickness of the medium.
 
 **Illustration of Spectral Line Formation**:
-![Figure 2.1 Formation of spectral lines in homogeneous clouds. Lines do not form when the cloud is optically thick (top left). In an optically thin cloud, lines form only if it is illuminated (top right), or when it is illuminated and observed under specific conditions (bottom). Absorption lines only form in optically thin objects under certain illumination conditions (bottom center-right).](https://images.astronet.ru/pubd/2002/05/14/0001176797/img235.gif)## 2.3 Thermal Radiation
+![Figure 2.1 Formation of spectral lines in homogeneous clouds. Lines do not form when the cloud is optically thick (top left). In an optically thin cloud, lines form only if it is illuminated (top right), or when it is illuminated and observed under specific conditions (bottom). Absorption lines only form in optically thin objects under certain illumination conditions (bottom center-right).](https://images.astronet.ru/pubd/2002/05/14/0001176797/img235.gif)
+
+## 2.3 Thermal Radiation
 
 Thermal radiation is generated by matter that is in thermal equilibrium.
 
@@ -798,7 +661,9 @@ $$\lambda_{\text{max}} \simeq 0.1 \text{cm},$$
 
 which yields a typical value of 
 
-$$n_{\gamma} \sim 500.$$## 2.4 Characteristic Temperatures of Astrophysical Sources
+$$n_{\gamma} \sim 500.$$
+
+## 2.4 Characteristic Temperatures of Astrophysical Sources
 
 For thermal radiation, the temperature of the body serves as the sole parameter that determines the emission spectrum. In astrophysics, we generally deal with observations of sources across a limited range of frequencies (or wavelengths). The estimate of the temperature of the emitting body can be made in various ways; however, the resulting temperature value does not always correspond to the physical temperature of the emitting medium. From the perspective of radiative transfer theory, temperature is merely one of the parameters that define the source function.
 
@@ -850,7 +715,9 @@ $$
 L = 4 \pi R^2 \sigma_B T_{eff}^4.
 $$
 
-For example, the effective temperature of the Sun can be approximated as $T_{eff,\odot} \approx 5600$ K. Effective temperatures for stars range from 2000 K to 50000 K. Hot white dwarfs can reach effective temperatures around $T_{eff} \sim 100000 K$. Additionally, effective temperatures for neutron stars are even higher, ranging from about $10^5$ to $10^6$ K.## 3. Features and Physical Limitations of Astrophysical Observations
+For example, the effective temperature of the Sun can be approximated as $T_{eff,\odot} \approx 5600$ K. Effective temperatures for stars range from 2000 K to 50000 K. Hot white dwarfs can reach effective temperatures around $T_{eff} \sim 100000 K$. Additionally, effective temperatures for neutron stars are even higher, ranging from about $10^5$ to $10^6$ K.
+
+## 3. Features and Physical Limitations of Astrophysical Observations
 
 In the field of astrophysics, understanding the features and constraints of observational techniques is crucial. This section delves into the fundamental challenges faced by astronomers when gathering data from celestial objects and phenomena.
 
@@ -881,7 +748,9 @@ Accurate measurement of light flux is paramount in astrophysics as it relates di
 - **Figure**: Illustration of a telescope capturing light from a distant star.
 - **Figure**: Graph showing the relationship between distance and luminosity of stars.
 
-By studying these topics, we can appreciate the intricate dance of light and matter that underpins our understanding of the universe. Astrophysics continually evolves, driven by advancements in technology and observational techniques, further unraveling the mysteries of the cosmos.## 3.1 The Main Task of Observational Astronomy
+By studying these topics, we can appreciate the intricate dance of light and matter that underpins our understanding of the universe. Astrophysics continually evolves, driven by advancements in technology and observational techniques, further unraveling the mysteries of the cosmos.
+
+## 3.1 The Main Task of Observational Astronomy
 
 The primary distinguishing characteristic of information reception in astronomy is the impossibility of conducting an "experiment" in the conventional sense used in physics. We cannot specifically "prepare" the object of study or influence it in any way. Due to the finite speed of light, when examining the signal from a certain source, we are actually studying physical processes that occurred many hundreds, thousands, or even billions of years ago. For this reason, astronomers refer to their work as astronomical *observations*, emphasizing the passive reception of information from sources. Thus, the reception and analysis of temporal and spectral characteristics of signals from astronomical sources become the main method for investigating their physical state and evolution. 
 
@@ -905,7 +774,7 @@ From the figure, it is evident that almost the entire infrared range of the spec
 
 The interstellar medium is filled with sparse ionized and neutral hydrogen, dust, and molecular clouds. Electromagnetic radiation propagating through such a medium undergoes absorption and scattering, which significantly affects the observational capabilities of distant astronomical sources.
 
-In the radio wave region, absorption is practically absent, while the ionized component of the interstellar medium is responsible for radio signal dispersion. The main absorption in the infrared, optical, and ultraviolet ranges (0.1-20 µm) is due to interstellar dust. The dust particles absorb ultraviolet and visible radiation from stars, converting it into lower-energy photons. A characteristic feature of interstellar absorption in this area is its *selectivity*, meaning a strong dependence on wavelength. This dependence is non-monotonic, exhibiting various features, but on average, absorption in the blue part of the spectrum is stronger than in the red, leading to *reddening* of light sources.
+In the radio wave region, absorption is practically absent, while the ionized component of the interstellar medium is responsible for radio signal dispersion. The main absorption in the infrared, optical, and ultraviolet ranges (0.1-20 $\mu$m) is due to interstellar dust. The dust particles absorb ultraviolet and visible radiation from stars, converting it into lower-energy photons. A characteristic feature of interstellar absorption in this area is its *selectivity*, meaning a strong dependence on wavelength. This dependence is non-monotonic, exhibiting various features, but on average, absorption in the blue part of the spectrum is stronger than in the red, leading to *reddening* of light sources.
 
 In the visible range, the absorption curve approximately follows the law $A \propto \lambda^{-n}$. The amount of interstellar absorption calculated per unit distance varies widely and depends on direction. The maximum absorption occurs in the galactic plane, where most of the gas-dust complexes are concentrated. In the vicinity of the Sun in the galactic plane, the optical thickness is about 2 for 1 kpc, with the highest contribution from clouds (6-10 clouds per 1 kpc). In some directions, the optical thickness can reach several tens (the so-called "coal sacks"). Absorption decreases with distance from the galactic plane according to a cosecant law, reaching a roughly constant level for galactic latitudes $|b| > 20^\circ$. A connection has been established between the optical thickness for absorption in the optical range (V band) and the number of neutral hydrogen atoms $N_H$ along the line of sight in a column with a cross-section of 1 cm$^2$:
 
@@ -958,7 +827,9 @@ Thus, if the source is "point-like" for the given telescope, only the *flux of r
 
 If the radiation field near the star's surface is isotropic (i.e., the intensity of the radiation emitted from the star's photosphere does not depend on angle, which is practically never the case in stars), then the direct study of the intensity of outgoing radiation carries maximum information about the emitting matter.
 
-For an "extended" source, on the contrary, one can directly observe the intensity of outgoing radiation (the term *brightness* is often used), averaged within the limits of the telescope's resolution. The highest angular resolution is achieved in the radio range, therefore, for radio sources with known angular sizes, the concept of *brightness temperature* is often used to characterize their radiation, as in this frequency range (Rayleigh-Jeans region) it is proportional to the intensity of the outgoing radiation $ I $.## 3.2 Telescopes and Radiation Receivers
+For an "extended" source, on the contrary, one can directly observe the intensity of outgoing radiation (the term *brightness* is often used), averaged within the limits of the telescope's resolution. The highest angular resolution is achieved in the radio range, therefore, for radio sources with known angular sizes, the concept of *brightness temperature* is often used to characterize their radiation, as in this frequency range (Rayleigh-Jeans region) it is proportional to the intensity of the outgoing radiation $ I $.
+
+## 3.2 Telescopes and Radiation Receivers
 
 ### 3.2.1 Optical Telescopes
 
@@ -1038,7 +909,9 @@ To register high-energy photons, their specific interactions with matter are uti
 
 For detecting photons with energies from 30 keV to 10 MeV, *scintillation detectors* are used, with crystals of NaI or CsI doped with Tl or scintillating organic plastics as the sensing material. The incident photon causes a flash of UV or visible light in the scintillating material, the amplitude of which is proportional to the energy of the absorbed quantum within a certain spectral range. The impulses of visible light are registered by photomultiplier tubes. The size of scintillation detectors is limited by the technology for growing single crystals of CsI or NaI and typically does not exceed 100-300 cm². To determine the coordinates of X-ray photons, they are first converted into a beam of electrons and then into visible light. Various devices, such as multi-wire two-coordinate proportional gas-filled counters, diode matrices, or CCD matrices are utilized for this purpose.
 
-In the soft X-ray range, reflective focusing telescopes (oblique-incidence X-ray telescopes) are employed to construct X-ray images. These telescopes operate because the reflection coefficient for metals increases with the wavelength of the incoming X-ray radiation and as the angle of incidence approaches 90 degrees. A high reflection coefficient (over 50%) for Au and Pt is achieved at incidence angles greater than 87 degrees. A two-mirror system consisting of a paraboloid and a hyperboloid of revolution (the Walter-type oblique-incidence X-ray telescope) provides good quality X-ray imaging, with angular resolution reaching 1" (arcsecond). The effective area of such telescopes, depending on photon energy, can achieve 20 cm² in the energy range of 0.5-1 keV.## 3.3 Astronomical *intermezzo*: Stellar Magnitudes
+In the soft X-ray range, reflective focusing telescopes (oblique-incidence X-ray telescopes) are employed to construct X-ray images. These telescopes operate because the reflection coefficient for metals increases with the wavelength of the incoming X-ray radiation and as the angle of incidence approaches 90 degrees. A high reflection coefficient (over 50%) for Au and Pt is achieved at incidence angles greater than 87 degrees. A two-mirror system consisting of a paraboloid and a hyperboloid of revolution (the Walter-type oblique-incidence X-ray telescope) provides good quality X-ray imaging, with angular resolution reaching 1" (arcsecond). The effective area of such telescopes, depending on photon energy, can achieve 20 cm² in the energy range of 0.5-1 keV.
+
+## 3.3 Astronomical *intermezzo*: Stellar Magnitudes
 
 Since the primary information about celestial bodies is obtained in the optical and near-optical ranges (IR, UV), we will focus on the specific units of measurement for radiation fluxes at these wavelengths ($A$), which are widely used in astrophysics.
 
@@ -1102,12 +975,14 @@ $$\Delta \lambda \approx 1000 \, \text{Å} \text{ for } \lambda_{B} = 4400 \, \t
 
 $$\Delta \lambda \approx 900\, \text{Å} \text{ for } \lambda_{V} = 5550 \, \text{Å}.$$
 
-Thus, we bridge our understanding of stellar magnitudes, relative brightness, and the underlying physics that governs them.## 3.4 Physical Limitations on the Accuracy of Astronomical Observations
+Thus, we bridge our understanding of stellar magnitudes, relative brightness, and the underlying physics that governs them.
+
+## 3.4 Physical Limitations on the Accuracy of Astronomical Observations
 
 ### 3.4.1 Coherence of Light
 Stars are not mere points with infinitely small angular sizes; they possess a finite (albeit very small) angular size. For instance, the disc of the Sun, with a radius of the visible photosphere approximately $R_\odot = 7 \times 10^{10}$ cm at a distance of 10 parsecs, is observed at an angle of 
 
-$$\theta \approx 6 \times 10^{-4}''.$$
+$$\theta \approx 6 \times 10^{-4}".$$
 
 Since observations are conducted using telescopes (receivers) with finite apertures (diameters) $D$, one must consider Fresnel diffraction: for a monochromatic source with a wavelength $\lambda$, the size of the diffraction disc image is 
 
@@ -1151,7 +1026,7 @@ cm, being several hundred wavelengths. Thus, in the long-wavelength range, coher
 
 $$\beta \approx \frac{\lambda}{r_0} \gg \frac{\lambda}{D_2}$$ 
 
-for this to occur, the light paths from both telescopes must converge at a common focus with a path difference that does not exceed the coherence length. This technically challenging task will be realized at the four-telescope Very Large Telescope (VLT) of the European Southern Observatory, where the effective diameter of the VLT interferometer will equal 16 m, with an angular resolution of $0.006''$ at a wavelength of 5000 A. In 2000, the second of the four 8.2 m telescopes of the VLT became operational. By the end of 2001, the first interferometric observations were made using two VLT telescopes operating in interferometer mode with a baseline of 102 m. Angular sizes of several stars were measured at the level of one millisecond of arc (a record for ground-based observations). By 2010, the launch of the Terrestrial Planet Finder (TPF), a space interferometer consisting of four 3.5 m telescopes with a maximum baseline of 1 km, is planned. The angular resolution will reach $0.001''$ at a wavelength of 3 μm, with the main scientific goal of this interferometer being the search for Earth-like planets around nearby stars.
+for this to occur, the light paths from both telescopes must converge at a common focus with a path difference that does not exceed the coherence length. This technically challenging task will be realized at the four-telescope Very Large Telescope (VLT) of the European Southern Observatory, where the effective diameter of the VLT interferometer will equal 16 m, with an angular resolution of $0.006''$ at a wavelength of 5000 A. In 2000, the second of the four 8.2 m telescopes of the VLT became operational. By the end of 2001, the first interferometric observations were made using two VLT telescopes operating in interferometer mode with a baseline of 102 m. Angular sizes of several stars were measured at the level of one millisecond of arc (a record for ground-based observations). By 2010, the launch of the Terrestrial Planet Finder (TPF), a space interferometer consisting of four 3.5 m telescopes with a maximum baseline of 1 km, is planned. The angular resolution will reach $0.001''$ at a wavelength of 3 $\mu$m, with the main scientific goal of this interferometer being the search for Earth-like planets around nearby stars.
 
 ### 3.4.2 Speckle Interferometry
 As previously mentioned, atmospheric turbulence distorts the wavefront and "blurs" the image of the star. Figure 3.59 schematically illustrates the passage of the wavefront through a turbulent atmosphere. To quantitatively characterize the scale of turbulence in the atmosphere, the Fried parameter $r_0$ (the so-called Fried parameter) is introduced. Its physical meaning is equivalent to the diameter of a telescope that achieves the diffraction-limited half-width of the image $D_{diff}$, producing an image created by the atmosphere when observing a point source with an ideal telescope with an infinite mirror size. The Fried parameter varies with the wavelength of the source $\lambda$ and in the optical range fluctuates between 5-20 cm. The larger the Fried parameter, the more suitable the site is for astronomical observations.
@@ -1194,7 +1069,9 @@ where $\alpha \ll 1$. In addition to shot noise, we can also have wave noise, wh
 
 $$(3.14) \quad \sigma_n \propto \sqrt{\langle N \rangle} t.$$
 
-Thus, photon statistics, including effects of shot noise and wave noise, are essential considerations in precision measurements in astrophysics.## 3.5 About the Accuracy of Light Flux Measurements
+Thus, photon statistics, including effects of shot noise and wave noise, are essential considerations in precision measurements in astrophysics.
+
+## 3.5 About the Accuracy of Light Flux Measurements
 
 The primary task of any astronomical observation is not only to *detect* a source but also to *measure* the flux of radiation. To register a source, it is sufficient to differentiate it from the background noise, taking a predetermined signal-to-noise ratio as a quantitative criterion. Measuring any physical quantity (such as flux or intensity) requires the specification of the accuracy with which we want to measure that quantity. Naturally, the higher the measurement accuracy, the better it is. In astronomical observations, the energy of photons collected by the telescope over the exposure time is converted by the detector into other forms of energy and ultimately output as digital data (for example, as the number of photoelectrons per second in a photomultiplier tube). These counts are then calibrated, establishing a definitive correspondence between the detector’s counting rate and the incoming photon flux in a specific energy range.
 
@@ -1234,60 +1111,14 @@ $$\epsilon_{f} = \frac{\sqrt{2N}}{N^{*}} = \frac{\sqrt{2D^{2}\beta^{2}St}}{D^{2}
 
 Notice that the limiting stellar magnitude is significantly different (about ten times lower in flux) from that of the night sky background!
 
-The information provided here will help us understand whether stars can be observed with the naked eye during the day from the bottom of a deep well. For the answer, it is sufficient to realize that the background sky brightness per unit area and the resolving power of the eye do not depend on where we conduct the observations. Would the answer change if we take a telescope instead?### 3.5 On the Accuracy of Measurements
+The information provided here will help us understand whether stars can be observed with the naked eye during the day from the bottom of a deep well. For the answer, it is sufficient to realize that the background sky brightness per unit area and the resolving power of the eye do not depend on where we conduct the observations. Would the answer change if we take a telescope instead?
+
+### 3.5 On the Accuracy of Measurements
 
 1. Physics of the Cosmos, Little Encyclopedia, ed. R.A. Sunyaev, Moscow: Soviet Encyclopedia, 1986.
 
 2. M. Longair. High-Energy Astrophysics. Chapters 6-7. Moscow: Mir, 1984.
 
----
-
-**Publications with Keywords:**  
-[Stars](http://db/search.html?kw=13809) - [Interstellar Medium](http://db/search.html?kw=14142) - [Cosmology](http://db/search.html?kw=15891) - [Theoretical Astrophysics](http://db/search.html?kw=10526) - [Astrophysics](http://db/search.html?kw=16508)  
-
-**Publications with Words:**  
-[Stars](http://db/search.html?words=%E7%E2%E5%E7%E4%FB) - [Interstellar Medium](http://db/search.html?words=%CC%E5%E6%E7%E2%E5%E7%E4%ED%E0%FF%20%F1%F0%E5%E4%E0) - [Cosmology](http://db/search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF) - [Theoretical Astrophysics](http://db/search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%E0%FF%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0) - [Astrophysics](http://db/search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)  
-
----
-
-**See also:**
-
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Black Hole Destroys Star: Animation](http://db/msg/1931410)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Stars, Dust, and Nebula in NGC 6559](http://db/msg/1904844)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [25 Brightest Stars in the Night Sky](http://db/msg/1863796)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Animation: Black Hole Destroys Star](http://db/msg/1736616)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Decomposition of Distant Light](http://db/msg/1696356)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Comparison of Star Sizes](http://db/msg/1415428)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [The Farthest Known Star?](http://db/msg/1406555)  
-
-[All publications on the same topic >>](http://db/search.html?kw=13809&kw=14142&kw=15891&kw=10526&kw=16508)  
-
----
-
-**Reader Opinions** [70]
-
-**Rating:** 3.1 [votes: 182]  
-Rating: 
-- [Excellent]
-- [Good]
-- [Average]
-- [Poor]
-- [Unsatisfactory]
-
----
-
-[Print Version](http://db/print/msg/1170612/3lec/node7.html)  
-
-**Categories:**  
-- **[Astrometry](http://db/sect/300000007)**  
-- **[Astronomical Instruments](http://db/sect/300000010)**  
-- **[Astronomical Education](http://db/sect/1168516)**  
-- **[Astrophysics](http://db/sect/300000003)**  
-- **[History of Astronomy](http://db/sect/300000016)**  
-- **[Space Exploration](http://db/sect/300000012)**  
-- **[Amateur Astronomy](http://db/sect/300000013)**  
-- **[Planets and Solar System](http://db/sect/300000005)**  
-- **[The Sun](http://db/sect/300000004)**  ## 4. Interstellar Medium
 
 The interstellar medium (ISM) is a crucial component of the Galaxy, second only to stars. The interstellar gas, primarily consisting of hydrogen, makes up slightly less than $10\%$ of the mass of the Galaxy, yet its role is immensely significant. The percentage of gas in the total mass of the galaxy is one of its key characteristics and determines the rate of star formation. Most gas is found in irregular and spiral galaxies, where new stars are constantly being born. For instance, the average star formation rate in our Galaxy is about 1 solar mass per year. There are galaxies with high star formation rates, several times above this average. In contrast, elliptical galaxies contain the least gas. They are mainly populated by low-mass, slowly evolving main-sequence stars of spectral classes G, K, and M, with almost no gas present (except in the central regions), resulting in very few new stars being formed.
 
@@ -1336,7 +1167,9 @@ The interstellar medium exhibits a complex structure, comprising separate compac
 
 --- 
 
-This gives a comprehensive overview of the interstellar medium, its components, properties, and observational manifestations relevant to the study of astrophysics.## 4.1 Physical Characteristics of Cosmic Plasma
+This gives a comprehensive overview of the interstellar medium, its components, properties, and observational manifestations relevant to the study of astrophysics.
+
+## 4.1 Physical Characteristics of Cosmic Plasma
 
 The primary feature of the physical state of the interstellar medium (ISM) is its extremely low density. Typical values are between 0.1 and 1000 atoms per cubic centimeter, and with characteristic molecular speeds around 10 km/s, the collision time between individual particles can reach tens or even thousands of years. This timescale far exceeds the characteristic lifetimes of atoms in excited states (on allowed levels, around $10^{-8}$ seconds). Consequently, a photon absorbed by an atom has sufficient time to be re-emitted from the excited level, and the probability of true absorption of non-ionizing quanta by ISM atoms (where the energy of the absorbed photon converts into kinetic energy of random particle motion) is extremely low.
 
@@ -1408,7 +1241,9 @@ $$n_k = \frac{N_k}{N_e}$$
 
 This relative population ultimately influences the line strengths observed in various astrophysical contexts. For instance, the most prominent forbidden lines occurring in planetary nebulae and HII regions around hot stars include the doublet of doubly ionized oxygen [OIII] at $4959$ A and $5007$ A, as well as UV lines of singly ionized oxygen [OII] and ions like SII, NII, among others. By comparing the intensities of these lines, one can determine the electron temperature of the gas in planetary nebulae, as the relative population of these levels is temperature-dependent.
 
-The emission lines in the spectrum of the solar corona were interpreted as forbidden emissions from atoms of Fe, Ni, and Ca that had been ionized multiple times (12 to 15 times) only in 1942. The temperature of the corona is several million degrees Kelvin, resulting in a very high ionization level among heavy ions, with hydrogen-like and helium-like iron atoms present. The most characteristic forbidden line in the optical spectrum of the solar corona is the green line of [FeXIV] at $5302.86$ A. In the X-ray spectrum of the corona, one can observe both forbidden and resonance lines, the latter showing similar intensity, even though the degree of forbiddenness can increase significantly with the charge state of the ion.## 4.2 The 21 cm Neutral Hydrogen Radio Line
+The emission lines in the spectrum of the solar corona were interpreted as forbidden emissions from atoms of Fe, Ni, and Ca that had been ionized multiple times (12 to 15 times) only in 1942. The temperature of the corona is several million degrees Kelvin, resulting in a very high ionization level among heavy ions, with hydrogen-like and helium-like iron atoms present. The most characteristic forbidden line in the optical spectrum of the solar corona is the green line of [FeXIV] at $5302.86$ A. In the X-ray spectrum of the corona, one can observe both forbidden and resonance lines, the latter showing similar intensity, even though the degree of forbiddenness can increase significantly with the charge state of the ion.
+
+## 4.2 The 21 cm Neutral Hydrogen Radio Line
 
 The most significant forbidden line in the Cosmic Microwave Background (CMB) is the 21 cm radio line of neutral hydrogen. This line arises from transitions within the hyperfine structure of the hydrogen atom, which is associated with the spins of the electron and proton. The upper sublevel corresponds to the parallel spins of the electron and proton, while the lower sublevel corresponds to their antiparallel spins, with the transition frequency being $\nu = 1420.40$ MHz. It was theoretically predicted by van den Hulst (Netherlands) in 1944 and independently calculated by I.S. Shklovsky in 1949. The line was detected in 1951 and remains one of the primary radio lines for studying neutral hydrogen in our galaxy and others.
 
@@ -1424,7 +1259,7 @@ where $n_{H}$ is the density of hydrogen atoms.
 
 Let's calculate the intensity of the neutral hydrogen emission line in the case of small optical thickness. For the emission in this line, induced emission is crucial. The transfer equation accounting for induced emission is given by
 
-$$\frac{dI_{\nu}}{ds} = \epsilon_{\nu} + \epsilon_{\nu}^{ind} I_{\nu} - a_{\nu} I_{\nu,$$
+$$\frac{dI_{\nu}}{ds} = \epsilon_{\nu} + \epsilon_{\nu}^{ind} I_{\nu} - a_{\nu} I_{\nu},$$
 
 where $\epsilon_\nu$ is the emission coefficient and $a_{\nu}$ is the absorption coefficient.
 
@@ -1474,7 +1309,9 @@ Research on the 21 cm line has established that neutral hydrogen in the galaxy i
 
 Additionally, HI emission is observed from many other galaxies, and its shine is used to determine the mass ratio of neutral hydrogen to the total mass of a galaxy while its rotation helps estimate the mass of the galaxy itself.
 
-It’s important to note that other chemical elements also exhibit hyperfine splitting of their ground state; however, attempts to detect corresponding (weak) lines so far have not been successful.### 4.3 Clouds of Neutral Hydrogen (H I) and Thermal Instability of the Interstellar Medium
+It’s important to note that other chemical elements also exhibit hyperfine splitting of their ground state; however, attempts to detect corresponding (weak) lines so far have not been successful.
+
+### 4.3 Clouds of Neutral Hydrogen (H I) and Thermal Instability of the Interstellar Medium
 
 Observations show that neutral hydrogen does not uniformly fill the interstellar medium (ISM) but primarily exists in two phases: relatively dense clouds of cold neutral hydrogen at temperatures around $T \sim 100$ K and a more diffuse inter-cloud medium at temperatures around $T \sim 10^4$ K. This distribution is a consequence of the thermal instability of the ISM caused by a non-monotonic relationship between pressure and matter density $P = n k T$ in the context of the ISM.
 
@@ -1523,7 +1360,9 @@ Almost invariably, volumetric cooling of the ISM occurs via photons, for which t
    
    b) **Inverse Compton Scattering**: This can increase the energy of low-frequency photons when they scatter off high-energy electrons, converting them to higher-energy quanta.
 
-This framework helps explain the observed stratification of H I regions into cold clouds and a warmer intercloud medium, highlighting the interplay between heating and cooling mechanisms in astrophysical contexts. To find the equilibrium temperature of the medium, it is necessary to jointly solve the equations of ionization balance, considering the population levels of atomic and ionic species within the ISM.## 4.4 Ionized Hydrogen and HII Regions
+This framework helps explain the observed stratification of H I regions into cold clouds and a warmer intercloud medium, highlighting the interplay between heating and cooling mechanisms in astrophysical contexts. To find the equilibrium temperature of the medium, it is necessary to jointly solve the equations of ionization balance, considering the population levels of atomic and ionic species within the ISM.
+
+## 4.4 Ionized Hydrogen and HII Regions
 
 Hydrogen is the most abundant element in the Universe. The ionization potential of hydrogen from its ground state is approximately $13.6$ eV, which means that hydrogen can be ionized by photons with energies greater than this threshold. This corresponds to radiation wavelengths shorter than the Lyman limit of $\lambda(L_{yc}) = 912$ Å, or about $\nu_c \approx 3.29 \times 10^{15}$ Hz. 
 
@@ -1551,7 +1390,9 @@ $$
 N_{Ly\ c} = 4\pi R_{*}^2 \int_{3.3 \times 10^{15}}^{\infty} \pi F_{\nu} \frac{d\nu}{h\nu}
 $$
 
-Photons with wavelengths $\lambda < 504$ Å are capable of ionizing helium, so zones of HeII are observed around the hottest stars.## 4.5 Molecular Clouds, Star Formation Regions, and Cosmic Masers
+Photons with wavelengths $\lambda < 504$ Å are capable of ionizing helium, so zones of HeII are observed around the hottest stars.
+
+## 4.5 Molecular Clouds, Star Formation Regions, and Cosmic Masers
 
 Within the extensive regions of neutral hydrogen (HI), which have a characteristic density of $n_{HI} \simeq 10 \, \text{cm}^{-3}$ and a complex structure, there exist dense cold clouds of molecular hydrogen, referred to as giant molecular clouds with masses around $10^{5} M_{\odot}$ and characteristic sizes of 40 parsecs. All molecular gas is concentrated within these clouds, with a total mass in the Galaxy estimated at about $2 \times 10^{9} M_{\odot}$. These clouds represent the most abundant massive gravitationally bound objects in our Galaxy. Most of them are found in a ring at distances of 4 to 8 kpc from the Galactic center, appearing both in spiral arms and in between them. The clouds are inhomogeneous, containing cold condensations ($n \sim 100 - 1000 \, \text{cm}^{-3}$, $T \approx 10 \, \text{K}$, $l \sim 0.3 - 1 \, \text{pc}$), and even denser giant globules (Bok globules), which are visible as dark spots against the background of the Milky Way (for example, the Horsehead Nebula or Barnard 68), with masses reaching up to 100 $M_{\odot}$. Active star formation occurs within these dense regions.
 
@@ -1575,7 +1416,9 @@ where $g_{1,2}$ are the statistical weights of the transitioning levels. The hig
 
 The pumping and energy extraction in cosmic masers occurs either through radiative (R) or collisional (C) processes, or via chemical processes. In the latter case, a molecule is formed in an excited state, or a molecule in the lower signal level is destroyed during a chemical reaction. A laboratory example is the excimer lasers based on unstable compounds of noble gases such as He or Xe.
 
-In R-extraction, it is crucial that the extracted photons exit freely from the maser source; otherwise, thermalization of the levels (Boltzmann occupancy) may occur. For collisional masers, energy pumping and extraction should take place with particles at different temperatures. Such out-of-equilibrium conditions are feasible in shock waves, where the temperatures of electrons and atoms (molecules) can significantly differ.## 4.6 Cosmic Rays and Synchrotron Radiation
+In R-extraction, it is crucial that the extracted photons exit freely from the maser source; otherwise, thermalization of the levels (Boltzmann occupancy) may occur. For collisional masers, energy pumping and extraction should take place with particles at different temperatures. Such out-of-equilibrium conditions are feasible in shock waves, where the temperatures of electrons and atoms (molecules) can significantly differ.
+
+## 4.6 Cosmic Rays and Synchrotron Radiation
 
 Cosmic rays (CR) are high-energy charged particles (up to $10^{20}$ eV) that originate from interstellar space. They were discovered by the Austrian physicist Victor Hess in 1912. Cosmic rays resemble a highly rarefied relativistic gas where particles do not interact with each other but occasionally collide with particles of the interstellar medium (ISM) and interact with the interstellar magnetic field. Protons dominate the composition of cosmic rays, though electrons, helium nuclei, and heavier elements up to $Z \sim 30$ are also present. The flux near Earth is relatively low, about 1 particle/(cm²·s), yet the energy density $U_{cr} \sim 1$ eV/cm³ is comparable to the density of the total electromagnetic radiation from stars in the Galaxy, the thermal motion energy of the interstellar gas, and the kinetic energy of its turbulent motions, as well as the energy density of the Galactic magnetic field (known as the equipartition theorem, due to global stationarity). The CR spectrum follows a power law that is non-thermal, with a few characteristic breaks, and averages around an index of about 3 ($I(E) \sim E^{-3}$). CRs with energies less than $10^{19}$ eV arrive isotropically from all directions in the sky. This fact is interpreted as evidence of their galactic origin and their confinement by the magnetic field of the Galaxy. The flux of ultra-high-energy cosmic rays (above $10^{20}$ eV) is extremely low (about 1 particle/km per 100 years), yet these ultra-high-energy cosmic rays represent one of the mysteries of modern astrophysics and particle physics.
 
@@ -1611,7 +1454,9 @@ Cosmic rays interact when colliding with protons and nuclei of interstellar matt
 
 Cosmic rays must be accelerated, evidently, by some non-thermal mechanism, as the temperature even at the centers of stars does not exceed a few keV. According to current understanding, the most likely mechanism for accelerating the electron and proton components of cosmic rays to high energies is the statistical acceleration of particles at the shock fronts created by supernova explosions. The essence of this mechanism (proposed by E. Fermi) is that during multiple collisions of particles in a moving medium with a speed $v \sim 0.1 c$, the energy of a particle on average increases by a magnitude $ \Delta E \sim 0.1 E$, ultimately resulting in a power law spectrum of distribution of particles in energy. In cases of head-on collisions, such a scenario can be realized at the front of a strong shock wave during a supernova explosion or in the vicinity of active galactic nuclei and quasars.
 
-Another acceleration mechanism is electromagnetic, where a charged particle is accelerated in an electric field. Static electric fields are not possible in plasma due to high conductivity—the slightest deviation from charge neutrality in plasma creates a current that screens the field. However, under non-stationary electromagnetic fields, particle acceleration can be achieved up to very high energies. For example, in the magnetospheres of pulsars, the magnetic fields attain $B \sim 10^{12}$ G at the surface. Even at the minimally possible rotation periods of neutron stars, about $10^{-3}$ seconds, the size of the wave zone where charged particle acceleration can occur is on the order of $\sim 10^9$ km. At the base of the wave zone, the electric field induced by the rapidly changing magnetic field is given by Maxwell's equations and reaches values on the order of the magnetic field intensity: $$E \sim B$$. A charged particle can gain energy on the order of $$E_{max} \approx eBL \sim 3 \times 10^{19}$$ eV in a typical value of the field at the surface of a rapidly rotating neutron star $B = 10^{12}$ G. Thus, in principle, there are no issues with accelerating particles to very high energies. However, as experiments show, the spectrum of ultra-high-energy cosmic rays does not experience the expected cutoff at energies $E \sim 10^{20}$ eV (thus limiting their origin to the local supercluster size) and the observed cosmic rays at these energies arrive isotropically from all directions (there is no concentration towards the Galactic plane or its center), and they are not associated with any known astronomical objects in this well-studied region. Therefore, the problem of the origin of cosmic rays with energy above $E \approx 10^{20}$ eV remains one of the unresolved issues in modern astrophysics of cosmic rays.## 4.7 Other Methods for Diagnosing Cosmic Plasma
+Another acceleration mechanism is electromagnetic, where a charged particle is accelerated in an electric field. Static electric fields are not possible in plasma due to high conductivity—the slightest deviation from charge neutrality in plasma creates a current that screens the field. However, under non-stationary electromagnetic fields, particle acceleration can be achieved up to very high energies. For example, in the magnetospheres of pulsars, the magnetic fields attain $B \sim 10^{12}$ G at the surface. Even at the minimally possible rotation periods of neutron stars, about $10^{-3}$ seconds, the size of the wave zone where charged particle acceleration can occur is on the order of $\sim 10^9$ km. At the base of the wave zone, the electric field induced by the rapidly changing magnetic field is given by Maxwell's equations and reaches values on the order of the magnetic field intensity: $$E \sim B$$. A charged particle can gain energy on the order of $$E_{max} \approx eBL \sim 3 \times 10^{19}$$ eV in a typical value of the field at the surface of a rapidly rotating neutron star $B = 10^{12}$ G. Thus, in principle, there are no issues with accelerating particles to very high energies. However, as experiments show, the spectrum of ultra-high-energy cosmic rays does not experience the expected cutoff at energies $E \sim 10^{20}$ eV (thus limiting their origin to the local supercluster size) and the observed cosmic rays at these energies arrive isotropically from all directions (there is no concentration towards the Galactic plane or its center), and they are not associated with any known astronomical objects in this well-studied region. Therefore, the problem of the origin of cosmic rays with energy above $E \approx 10^{20}$ eV remains one of the unresolved issues in modern astrophysics of cosmic rays.
+
+## 4.7 Other Methods for Diagnosing Cosmic Plasma
 
 ### 4.7.1 Dispersion Measure
 
@@ -1677,7 +1522,9 @@ where
 
 $$ RM = \frac{e^2}{2\pi(m_e c)^2} \int_{0}^{L} n_e B_{\parallel} \, dl \approx 0.81 \, [\text{pa} \cdot \text{d}/\text{M}^2] \left( \frac{n_e}{\text{cm}^{-3}} \right)^{2} \left( \frac{B_{\parallel}}{10^{-6} \, \text{G}} \right) \left( \frac{L}{\pi k} \right) $$
 
-This provides a deeper understanding of the effects of magnetic fields in plasma and the methodologies to measure them through astrophysical observations.## 4.8 Literature
+This provides a deeper understanding of the effects of magnetic fields in plasma and the methodologies to measure them through astrophysical observations.
+
+## 4.8 Literature
 
 1. **Cosmic Physics: A Small Encyclopedia**, Edited by R.A. Sunyaev. 2nd ed., Moscow: Soviet Encyclopedia, 1986.
 
@@ -1689,85 +1536,8 @@ This provides a deeper understanding of the effects of magnetic fields in plasma
 
 ---
 
-### Additional Resources
 
-- **Publications with Key Words**: [Stars](http://db/search.html?kw=13809) - [Interstellar Medium](http://db/search.html?kw=14142) - [Cosmology](http://db/search.html?kw=15891) - [Theoretical Astrophysics](http://db/search.html?kw=10526) - [Astrophysics](http://db/search.html?kw=16508)
-  
-- **Publications with Terms**: [Stars](http://db/search.html?words=%E7%E2%E5%E7%E4%FB) - [Interstellar Medium](http://db/search.html?words=%CC%E5%E6%E7%E2%E5%E7%E4%ED%E0%FF%20%F1%F0%E5%E4%E0) - [Cosmology](http://db/search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF) - [Theoretical Astrophysics](http://db/search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%E0%FF%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0) - [Astrophysics](http://db/search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)
-
-#### See also:
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Black Hole Disrupts Star: Animation](http://db/msg/1931410)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Stars, Dust, and Nebula in NGC 6559](http://db/msg/1904844)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [25 Brightest Stars in the Night Sky](http://db/msg/1863796)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Animation: Black Hole Disrupts Star](http://db/msg/1736616)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Decomposition of Distant Light](http://db/msg/1696356)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Comparison of Star Sizes](http://db/msg/1415428)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [The Most Distant of All Known Stars?](http://db/msg/1406555)
-
-[All publications on the same topic >>](http://db/search.html?kw=13809&kw=14142&kw=15891&kw=10526&kw=16508)## 5. Stars
-
----
-
-### Sections
-- **5.1 General Information**
-- **5.2 Star Formation**
-- **5.3 Protostars**
-- **5.4 Stationary Stars**
-
----
-
-**Publications with keywords:** [stars](http://db/search.html?kw=13809) - [Interstellar Medium](http://db/search.html?kw=14142) - [Cosmology](http://db/search.html?kw=15891) - [Theoretical Astrophysics](http://db/search.html?kw=10526) - [Astrophysics](http://db/search.html?kw=16508)  
-**Publications with phrases:** [stars](http://db/search.html?words=%E7%E2%E5%E7%E4%FB) - [Interstellar Medium](http://db/search.html?words=%CC%E5%E6%E7%E2%E5%E7%E4%ED%E0%FF%20%F1%F0%E5%E4%E0) - [Cosmology](http://db/search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF) - [Theoretical Astrophysics](http://db/search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%E0%FF%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0) - [Astrophysics](http://db/search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)
-
----
-
-**Also see:**
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Black Hole Destroying a Star: Animation](http://db/msg/1931410)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Stars, Dust, and Nebula in NGC 6559](http://db/msg/1904844)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [25 Brightest Stars in the Night Sky](http://db/msg/1863796)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Animation: Black Hole Destroying a Star](http://db/msg/1736616)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Decomposition of Distant Light](http://db/msg/1696356)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Comparison of Star Sizes](http://db/msg/1415428)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [The Most Distant of All Known Stars?](http://db/msg/1406555)
-
-[All publications on the same topic >>](http://db/search.html?kw=13809&kw=14142&kw=15891&kw=10526&kw=16508)
-
----
-
-**Reader Opinions** [70]
-
-**Rating:** 3.1 [votes: 182]
-
-**Rate it:** 
-<select name="vote">
-  <option selected="" value="0">--Rate--
-  <option value="5">Excellent
-  <option value="4">Good
-  <option value="3">Average
-  <option value="2">Poor
-  <option value="1">Unsuitable
-</select>
-<input type="submit" value="Rate"/>
-
----
-
-**Print Version**  
-[![Print](http://images.astronet.ru/img/print.gif)](http://db/print/msg/1170612/5lec/node1.html)
-
----
-
-**Related Topics**  
-- [Astrometry](http://db/sect/300000007)
-- [Astronomical Instruments](http://db/sect/300000010)
-- [Astronomical Education](http://db/sect/1168516)
-- [Astrophysics](http://db/sect/300000003)
-- [History of Astronomy](http://db/sect/300000016)
-- [Cosmonautics, Space Exploration](http://db/sect/300000012)
-- [Amateur Astronomy](http://db/sect/300000013)
-- [Planets and the Solar System](http://db/sect/300000005)
-- [The Sun](http://db/sect/300000004)
-
----## 5.1 General Information
+## 5.1 General Information
 
 Stars can be classified based on their physical states into *normal* stars, which consist of non-degenerate matter (ideal gas) where thermonuclear fusion reactions occur in their cores, and *degenerate* stars (white dwarfs, neutron stars), whose equilibrium is maintained by the pressure of quantum-mechanically degenerate fermions (electrons in the case of white dwarfs or neutrons in the case of neutron stars). A special class includes black holes, which are not defined as stars in the conventional sense. White dwarfs, neutron stars, and black holes are collectively referred to as "compact remnants" as they are the final products of the evolution of ordinary stars. The total number of stars and their remnants in our Galaxy is estimated to be $\sim 2 \times 10^{11}$.
 
@@ -1796,7 +1566,9 @@ The chemical composition of stars (primarily, the content of heavy elements) det
 
 The spectra of stars are extremely diverse. As we noted in Lecture 2, the spectrum of radiation emitted from a star's atmosphere is determined by the physical condition of its plasma and its chemical composition (the coefficients of emission and absorption). Based on spectral properties, stars are divided into spectral classes indicated by the letters O, B, A, F, G, K, M (the main spectral classes) in order of decreasing effective temperature from $\sim 20000$ K to $\sim 3000$ K. Stars of different radii may correspond to the same spectral class. A convenient graphical representation of a star's state was introduced in the early 20th century: the color-luminosity diagram (or luminosity - effective temperature), known as the *Hertzsprung-Russell diagram*. On this diagram, the *main sequence*, the branch of giants and supergiants, as well as the branch of subdwarfs and white dwarfs, can be clearly traced. Main sequence stars are the most numerous, as they burn hydrogen into helium in their cores. This is the longest stage of a star's evolution. Subsequent evolutionary stages leading to the formation of a compact remnant last about 10% of the main sequence lifetime.
 
-After hydrogen is depleted, the star moves off the main sequence towards the red giants. In this process, the star's radius increases rapidly while its effective temperature decreases. The energy source for red giants is the burning of hydrogen in the shell surrounding the helium core. In later stages of evolution, helium burns into carbon, carbon into oxygen, and so forth, progressing through the elements up to the iron peak at an ever-increasing rate. For stars with initial masses $M < 10 M_\odot$, the formation of a white dwarf occurs at the top of the giant branch and is accompanied by a relatively slow shedding of the envelope, resulting in a *planetary nebula*. More massive stars explode as supernovae at the red supergiant stage, and depending on chemical composition, a supernova explosion may occur even at the blue supergiant stage, as was the case with supernova 1987A in the Large Magellanic Cloud.## 5.2 Star Formation
+After hydrogen is depleted, the star moves off the main sequence towards the red giants. In this process, the star's radius increases rapidly while its effective temperature decreases. The energy source for red giants is the burning of hydrogen in the shell surrounding the helium core. In later stages of evolution, helium burns into carbon, carbon into oxygen, and so forth, progressing through the elements up to the iron peak at an ever-increasing rate. For stars with initial masses $M < 10 M_\odot$, the formation of a white dwarf occurs at the top of the giant branch and is accompanied by a relatively slow shedding of the envelope, resulting in a *planetary nebula*. More massive stars explode as supernovae at the red supergiant stage, and depending on chemical composition, a supernova explosion may occur even at the blue supergiant stage, as was the case with supernova 1987A in the Large Magellanic Cloud.
+
+## 5.2 Star Formation
 
 Stars are formed as a result of gravitational (Jeans) instability in cold dense molecular clouds. Let's consider a defined spherical volume in a uniform medium. The gravitational force, which tends to compress this volume, depends only on the mass of the gas contained within it:
 
@@ -1898,7 +1670,9 @@ indicating that the star formation rate would be:
 
 $$\sim 10^{3} \, M_{\odot} \, \text{per year}.$$
 
-However, the observed star formation rate in the Galaxy is around 1 $M_{\odot}$ per year. This slowdown in the star formation rate is attributed to rotation and magnetic fields (due to the embedding of the fields within cosmic plasma). On the other hand, the compression is aided by shock waves from supernova remnants, spiral density waves, and stellar winds from hot OB stars.## 5.3 Protostars
+However, the observed star formation rate in the Galaxy is around 1 $M_{\odot}$ per year. This slowdown in the star formation rate is attributed to rotation and magnetic fields (due to the embedding of the fields within cosmic plasma). On the other hand, the compression is aided by shock waves from supernova remnants, spiral density waves, and stellar winds from hot OB stars.
+
+## 5.3 Protostars
 
 Let's qualitatively follow the process of the collapse of a molecular cloud that meets the Jeans instability criterion. We will consider a spherical cloud of an ideal gas with mass $M$. It will start collapsing under its own gravity if its radius satisfies the inequality:
 
@@ -1958,7 +1732,9 @@ $$t_d \approx 5 \times 10^{13} \text{ years} \frac{n_i}{n_H},$$
 
 where $n_i$ is the density of ions and $n_H$ is the density of neutral hydrogen.
 
-In summary, the dynamics of protostars involves complex interplay between gravitational, thermal, magnetic, and rotational forces, influencing their evolution and formation processes.## 5.4 Stationary Stars
+In summary, the dynamics of protostars involves complex interplay between gravitational, thermal, magnetic, and rotational forces, influencing their evolution and formation processes.
+
+## 5.4 Stationary Stars
 
 The physical state of stationary stars is determined by the conditions of hydrostatic equilibrium (when macroscopic parameters—mass, radius—change over long timescales $t_{ff} \sim \frac{1}{\sqrt{G \rho}}$, where $\rho$ is the mass density) and thermal equilibrium (despite the intense energy release at the core, stars do not explode, and their luminosity varies smoothly).
 
@@ -2058,7 +1834,9 @@ $$P = \epsilon / 3,$$
 
 results indicate an energy transfer to the star ($\Delta E$) leads to cooling, while energy radiation results in heating. This implies stars maintain a unique negative heat capacity, understood within the context of hydrostatic equilibrium.
 
-Overall, it’s notable that the virial theorem remains applicable beyond thermodynamic considerations, spanning classical and quantum dynamics, and is critical for understanding both stable macroscopic systems and quantum systems like charged particles in a Coulomb field.## 6. Stars. Structure and Evolution (Continued)
+Overall, it’s notable that the virial theorem remains applicable beyond thermodynamic considerations, spanning classical and quantum dynamics, and is critical for understanding both stable macroscopic systems and quantum systems like charged particles in a Coulomb field.
+
+## 6. Stars. Structure and Evolution (Continued)
 
 ### 6.1 Nuclear Reactions in Stars
 
@@ -2081,7 +1859,9 @@ In the domain of stellar astrophysics, it is important to understand how these r
 
 Specifically, main sequence stars follow a defined set of relationships where luminosity increases with mass. Additionally, the radius also scales with mass, and these fundamental correlations are central to our understanding of stellar physics.
 
-Understanding these core concepts will provide a strong foundation for further studies in stellar dynamics and evolutionary processes that govern the behavior of stars over cosmic timescales.## 6.1 Nuclear Reactions in Stars
+Understanding these core concepts will provide a strong foundation for further studies in stellar dynamics and evolutionary processes that govern the behavior of stars over cosmic timescales.
+
+## 6.1 Nuclear Reactions in Stars
 
 The reserves of nuclear energy in stars far exceed their thermal energy reserves. If a star (for example, the Sun) were to shine solely through gravitational contraction, according to the virial theorem, the timescale for radiating thermal energy (the Kelvin-Helmholtz timescale) can be expressed as:
 
@@ -2115,7 +1895,9 @@ highlighting that a star with a mass ten times that of the Sun evolves approxima
 
 1. The timescale of thermonuclear burning of hydrogen is highly dependent on the star's mass, roughly as $M^{-2}$; for instance, a star with 10 solar masses evolves 100 times quicker than the Sun.
 
-2. The hydrogen fusion stage in a star's core is the most prolonged phase. All subsequent stages (such as helium burning into carbon, etc.) contribute only about $10\%$ of the duration of the initial hydrogen-burning phase, which is attributed to the high sensitivity of nuclear reaction rates to temperature. In fusion reactions for heavier elements, the central temperature needs to exceed certain thresholds, overcoming higher Coulomb barriers, approximately represented as $\sim \mathbb{Z}^{2}$.## 6.2 Features of Nuclear Reactions in Stars
+2. The hydrogen fusion stage in a star's core is the most prolonged phase. All subsequent stages (such as helium burning into carbon, etc.) contribute only about $10\%$ of the duration of the initial hydrogen-burning phase, which is attributed to the high sensitivity of nuclear reaction rates to temperature. In fusion reactions for heavier elements, the central temperature needs to exceed certain thresholds, overcoming higher Coulomb barriers, approximately represented as $\sim \mathbb{Z}^{2}$.
+
+## 6.2 Features of Nuclear Reactions in Stars
 
 Using the virial theorem, the central temperature in a star can be estimated as:
 
@@ -2164,9 +1946,9 @@ This cycle occurs in stars of small masses (M < 1.3 $M_{\odot}$).
 1. $\mathrm{pp\ cycle:}$
    - $$p + p \rightarrow D^2 + e^+ + \nu_e(E_{\nu,pp} < 0.42 \text{MeV}) \quad \tau \sim 10^{10} \text{ years}$$
 
-   - $$D + p \rightarrow He^{3} + \gamma \quad \tau \sim 1.5 \text{ сек}$$
+   - $$D + p \rightarrow He^{3} + \gamma \quad \tau \sim 1.5 \text{ s}$$
 
-   - $$He^3 + He^3 \rightarrow He^4 + 2p \quad \tau \sim 10^6 \text{ лет}$$
+   - $$He^3 + He^3 \rightarrow He^4 + 2p \quad \tau \sim 10^6 \text{ yr}$$
 
 2. With a probability of 65%:
    - $$He^{3} + He^{4} \rightarrow Be^{7} + \gamma$$
@@ -2223,7 +2005,9 @@ When considering small deviations from thermodynamic equilibrium, the transfer o
 
 The understanding of diffusion timescales in the Sun indicates that the time for thermal energy to emerge from the center is on the order of millions of years, dominated by radiation and convection processes. 
 
-Thus, the interaction of solar magnetic fields also plays a significant role, as they can suppress convection and affect heat transfer, resulting in observable cooler areas known as sunspots with temperatures around 2000 K. These aspects are just parts of the greater context of stellar astrophysics that students are encouraged to explore further.## 6.3 Relationships between Mass and Luminosity for Main Sequence Stars
+Thus, the interaction of solar magnetic fields also plays a significant role, as they can suppress convection and affect heat transfer, resulting in observable cooler areas known as sunspots with temperatures around 2000 K. These aspects are just parts of the greater context of stellar astrophysics that students are encouraged to explore further.
+
+## 6.3 Relationships between Mass and Luminosity for Main Sequence Stars
 
 The masses of binary star components can be determined from observations, leading to the possibility of establishing an empirical mass-luminosity relation. It has been found that for main sequence stars, 
 
@@ -2299,7 +2083,8 @@ The fundamental relationships that define the structure of stars, such as the ma
 
 **Mass-Radius Relation**: This relationship expresses how the radius of a star scales with its mass, and is critical for understanding various stellar structures during evolution.
 
-In summary, the life cycle of stars after the main sequence phase involves complex processes governed by their mass, which ultimately dictate their eventual fates as different astronomical objects.## 7.1 Evolution of Stars After the Main Sequence
+In summary, the life cycle of stars after the main sequence phase involves complex processes governed by their mass, which ultimately dictate their eventual fates as different astronomical objects.
+## 7.1 Evolution of Stars After the Main Sequence
 
 Hydrogen burning is the longest phase in the life of a star, primarily due to the initial abundance of hydrogen (about 70% by mass) and the considerable energy yield (about 70 MeV per nucleon) from the fusion of hydrogen into helium. During this process, the photonic luminosity of stars on the main sequence is generally less than during subsequent evolutionary phases, and their neutrino luminosity is significantly lower, with central temperatures not exceeding approximately $T_c \sim 2 - 3 \times 10^{7}$ K. Consequently, the majority of stars in the Galaxy and the Universe are main-sequence stars.
 
@@ -2319,7 +2104,7 @@ $$He^{4} + He^{4} \iff Be^{8}$$
 
 The lifetime of $Be^{8}$ is approximately $10^{-16}$ s, but there is a probability of it capturing another alpha particle to form the excited $C^{12}$ nucleus:
 
-$$Be^{8} + He^{4} \iff C^{12}^*$$
+$$Be^{8} + He^{4} \iff C^{12}_*$$
 
 The excitation is released by producing a pair, rather than by photon emission, because photon transitions from this level are forbidden by selection rules:
 
@@ -2346,7 +2131,8 @@ Again, it's emphasized that the astrophysical phenomena involving $r$-processes 
 
 Notably, the relative abundance of heavy $r$-elements can be used to estimate the age of a star. This typically involves long-lived radioactive isotopes, such as $^{232}Th(\tau_{1/2} = 1.4 \times 10^9 \text{ years})$ and $^{238}U(\tau_{1/2} = 4.5 \times 10^{9} \text{ years})$. 
 
-By examining absorption lines in stellar spectra, the ratio of radioactive thorium (which can only be formed under $r$-process conditions) to the stable europium (Eu) element is determined. This ratio decreases over time (as thorium decays), allowing the star's age to be estimated by knowing the theoretical initial value of the abundance ratio, which is determined solely by the kinetics of the $r$-process. The ratio of third peak elements (Os, Ir, Pt, Au) to thorium and the ratio $U/Th$ are also considered, yielding a lower limit for the star's age. This method has been used to determine the ages of the oldest stars with low metallicity (halo stars of the Galaxy and those in globular clusters), estimated to be over 13 billion years old. This provides a crucial constraint on the lifetime of the Universe itself. For further details, refer to the collection "Nuclear Astrophysics," edited by Fowler, Moscow: Mir, 1986.## 7.2 Degeneracy of Matter
+By examining absorption lines in stellar spectra, the ratio of radioactive thorium (which can only be formed under $r$-process conditions) to the stable europium (Eu) element is determined. This ratio decreases over time (as thorium decays), allowing the star's age to be estimated by knowing the theoretical initial value of the abundance ratio, which is determined solely by the kinetics of the $r$-process. The ratio of third peak elements (Os, Ir, Pt, Au) to thorium and the ratio $U/Th$ are also considered, yielding a lower limit for the star's age. This method has been used to determine the ages of the oldest stars with low metallicity (halo stars of the Galaxy and those in globular clusters), estimated to be over 13 billion years old. This provides a crucial constraint on the lifetime of the Universe itself. For further details, refer to the collection "Nuclear Astrophysics," edited by Fowler, Moscow: Mir, 1986.
+## 7.2 Degeneracy of Matter
 
 During the evolutionary process, both the density and temperature in the center of a star increase. As the density rises, the physical state of the matter begins to change—first due to Coulomb interactions (as seen in ordinary solid bodies) and later due to quantum mechanical effects (the degeneracy of the electron gas). Indeed, astronomical observations show that compact white dwarfs have a radius of about $0.01$ solar radii at a mass approximately equal to that of the Sun, which means their average density is $\sim 10^4$ g/cm³. At such densities, interatomic distances are smaller than the sizes of electron orbits in atoms, leading to electrons becoming free even at zero temperature ($T = 0$) and behaving like a gas.
 
@@ -2371,7 +2157,8 @@ $$R \propto M^{-\alpha},$$
 where specifically for a non-relativistic electron degeneracy:
 $$\alpha \approx \frac{1}{3}$$ 
 
-This shows that as the mass of a white dwarf increases, its radius decreases, a demonstration of the intricate balance of forces at play in these stellar remnants.## 7.3 Chandrasekhar Limit and Fundamental Mass of a Star
+This shows that as the mass of a white dwarf increases, its radius decreases, a demonstration of the intricate balance of forces at play in these stellar remnants.
+## 7.3 Chandrasekhar Limit and Fundamental Mass of a Star
 
 As the density of matter increases ($\rho > 10^{6}$ g/cm³), electrons become relativistic, and their pressure can be expressed as $P \rightarrow K \rho^{4/3}$. From the equation of hydrostatic equilibrium, it follows that equilibrium is possible only for a specific mass, known as the Chandrasekhar limit:
 
@@ -2398,7 +2185,8 @@ where $N_g \sim 10^9 \Omega_b$.
 
 When the gravitational force of a star is countered by the pressure exerted by degenerate neutrons (as seen in a neutron star), a similar limiting mass can be obtained for the neutron star. This limit is sometimes referred to as the Oppenheimer-Volkoff limit, named after the physicists who in 1939 explored the structure of the simplest neutron star, composed solely of degenerate neutrons.
 
-Unlike the Chandrasekhar limit, which is influenced solely by the chemical composition of the matter (defining the number of electrons per nucleon), the Oppenheimer-Volkoff limit depends on the yet-unknown equation of state for matter at nuclear densities (estimated at $\rho > 10^{14}$ g/cm³). Modern calculations indicate that this limit typically ranges from $\sim 1.4 - 3 M_{\odot}$, making its determination one of the fundamental challenges in the physics of neutron stars.## 7.4 Neutronization of Matter and Loss of Star Stability
+Unlike the Chandrasekhar limit, which is influenced solely by the chemical composition of the matter (defining the number of electrons per nucleon), the Oppenheimer-Volkoff limit depends on the yet-unknown equation of state for matter at nuclear densities (estimated at $\rho > 10^{14}$ g/cm³). Modern calculations indicate that this limit typically ranges from $\sim 1.4 - 3 M_{\odot}$, making its determination one of the fundamental challenges in the physics of neutron stars.
+## 7.4 Neutronization of Matter and Loss of Star Stability
 
 The combustion of silicon leading to the formation of nuclei such as $^{32}Si$, $^{56}Fe$, $^{58}Fe$, and $^{60}Fe$ marks the culmination of thermonuclear reactions in the non-degenerate core of a massive star. At this stage, the density reaches about $3 \, \text{g/cm}^3$, and the temperature is approximately $8 \times 10^{9} \, K$ with a core mass of $1.5-2 \, M_{\odot}$. 
 
@@ -2426,19 +2214,19 @@ $
 
 The average energy of neutrinos in this context can be approximated as:
 
-$
+$$
 \langle E_{\nu} \rangle \sim \langle E_{e^{-}} \rangle \sim E_{F} \approx 51.6 \left( Y_{e} \rho_{12} \right)^{1/3} M \Theta B
-$
+$$
 
 where $Y_{e} = \frac{n_{e}}{n_{b}}$ and $\rho_{12} = \frac{\rho}{(10^{12})}$.
 
 When matter undergoes neutronization, the stiffness of the degenerate matter decreases, as the concentration of electrons decreases while keeping baryonic density constant (the lepton parameter $Y_{e}$ remains fixed). Thus, the effective adiabatic index of the matter, 
 
-$
-\Gamma = \frac{d \log P}{d \log \rho},
-$
+$$
+\Gamma = \frac{d \log P}{d \log \rho}
+$$
 
-drops from $ \frac{5}{3} $ to $ \frac{4}{3} $. According to the virial theorem (or the conditions of hydrostatic equilibrium in a star), such a change in the adiabatic index leads to a loss of mechanical stability for the star. Therefore, the neutronization of matter is one of the key physical processes enforcing the core collapse of massive stars in the later stages of their evolution.
+The adiabatic index drops from $\frac{5}{3}$ to $\frac{4}{3}$. According to the virial theorem (or the conditions of hydrostatic equilibrium in a star), such a change in the adiabatic index leads to a loss of mechanical stability for the star. Therefore, the neutronization of matter is one of the key physical processes enforcing the core collapse of massive stars in the later stages of their evolution.
 
 Another reason for the loss of hydrostatic stability in stars is the effects of General Relativity: in GR, the pressure of matter contributes to the gravitational force (figuratively speaking, pressure "weighs" something), and thus at high densities and pressures of degenerate gas, relativistic effects generate additional forces that tend to compress the stellar material.
 
@@ -2446,15 +2234,17 @@ During neutronization, the star rapidly loses stability: the loss of stiffness l
 
 Even if the temperature rise during the collapse alleviates the degeneracy of the electron gas, energy continues to be lost via antineutrinos produced during the beta decay processes in neutron-rich nuclei. These irreversible energy losses due to direct and reverse beta decays are referred to as *URCA processes*, which were first examined by Gamow and Shenberg. The volumetric energy losses during URCA processes heavily depend on temperature and can be expressed as:
 
-$
-Q_{urca} \approx 8 \times 10^{11} \rho \left( \frac{T}{10^{9} \text{K}} \right)^{6} \text{erg}/\text{cm}^{3}/\text{s}.
-$
+$$
+Q_{\text{urca}} \approx 8 \times 10^{11} \rho \left( \frac{T}{10^{9} \ \text{K}} \right)^{6} \ \text{erg} \ \text{cm}^{-3} \ \text{s}^{-1}.
+$$
 
-$
-Q_\textrm{urca} \sim 4 \times 10^{15} \rho \left( \frac{T}{10^9} \right)^9 \frac{\mathrm{erg}}{\mathrm{cm}^3 \, \mathrm{s}^{-1}}.
-$ 
+$$
+Q_{\text{urca}} \sim 4 \times 10^{15} \rho \left( \frac{T}{10^9} \right)^9 \frac{\text{erg}}{\text{cm}^3 \, \text{s}}^{-1}.
+$$
 
-In summary, the processes involved in neutronization and the associated energy losses play crucial roles in the dynamics of stellar evolution and the eventual collapse of massive stars.## 7.5 Supernova Explosions
+In summary, the processes involved in neutronization and the associated energy losses play crucial roles in the dynamics of stellar evolution and the eventual collapse of massive stars.
+
+## 7.5 Supernova Explosions
 
 Supernova explosions (SN) represent one of the most powerful catastrophic processes in nature. These explosions are associated either with the collapse of the cores of massive stars (known as type II and Ibc supernovae), or with thermonuclear explosions of white dwarfs (type Ia SN). According to current understanding, in stars with a mass greater than approximately $10 M_{\odot}$ during their main sequence phase, the thermonuclear evolution proceeds under non-degenerate conditions until the formation of the most stable elements of the iron group (Fe, Ni, Co).
 
@@ -2505,7 +2295,8 @@ Depending on the initial mass of Solar-composition stars (typical for stars in t
    ![Supernovae and black holes](https://images.astronet.ru/pubd/2002/05/14/0001176797/8lec/img6.gif)  
    Conditions leading to this final type are less certain, given the unclear details regarding the mechanism of envelope ejection during supernova explosions.
 
-It should be noted that there is uncertainty regarding the precise boundaries that differentiate these cases, as the details of the envelope shedding mechanism during a supernova are still not fully understood.## 8.1 White Dwarfs
+It should be noted that there is uncertainty regarding the precise boundaries that differentiate these cases, as the details of the envelope shedding mechanism during a supernova are still not fully understood.
+## 8.1 White Dwarfs
 
 The primary reason for the formation of various types of stellar remnants is the difference in physical conditions at the center of stars. In stars with masses up to 10 times that of the Sun, thermonuclear evolution completes before the formation of an iron core, which has a mass lower than the Chandrasekhar limit. Depending on the initial mass, this occurs during the helium or carbon-oxygen core stages of the degenerate core. The thermonuclear burning in degenerate material is explosive in nature (due to the high thermal conductivity of degenerate electrons—think of a hot frying pan!), and the increased temperature can partially relieve the degeneration, making the burning less intense. 
 
@@ -2517,7 +2308,8 @@ Stars on the main sequence with masses less than $0.5 M_{\odot}$ are fully conve
 
 For stars with masses from $3 M_{\odot}$ to $8 M_{\odot}$, the evolution in the core occurs in non-degenerate conditions until a carbon-oxygen core is formed. After shedding their hydrogen envelopes on the asymptotic giant branch, they leave behind a white dwarf with a mass of up to $\sim 1.2 M_{\odot}$. Stars of $8 M_{\odot}$ to $10 M_{\odot}$ become carbon-oxygen white dwarfs with masses close to the Chandrasekhar limit of $M_{\odot}$.
 
-A qualitatively new situation can arise if a white dwarf is part of a close binary system—under the influence of tidal forces, material transfer from the neighboring star to the white dwarf is possible, which can lead to an increase in its mass. As the white dwarf approaches the Chandrasekhar limit, thermonuclear burning begins in its center, leading to an explosion (this is the type Ia supernova model). The collapse of the white dwarf into a neutron star is also a possibility.## 8.2 Neutron Stars
+A qualitatively new situation can arise if a white dwarf is part of a close binary system—under the influence of tidal forces, material transfer from the neighboring star to the white dwarf is possible, which can lead to an increase in its mass. As the white dwarf approaches the Chandrasekhar limit, thermonuclear burning begins in its center, leading to an explosion (this is the type Ia supernova model). The collapse of the white dwarf into a neutron star is also a possibility.
+## 8.2 Neutron Stars
 
 In most cases, neutron stars are formed as a result of the collapse of the cores of massive stars (on the main sequence), which is accompanied by a Type II or Type Ib/c supernova explosion. The energy released during the collapse is roughly equivalent to the gravitational binding energy of the neutron star.
 
@@ -2535,7 +2327,8 @@ $$ B_{ns} = B_0 \left( \frac{R_\odot}{10} \right)^{2} \sim 5 \times 10^{11} \, \
 
 which is also observed in typical neutron stars known as pulsars.
 
-The formation of superdense neutron stars during the collapse of massive star cores accompanying supernova explosions was proposed by astronomers Walter Baade and Fritz Zwicky in 1934, soon after the discovery of the neutron. Single neutron stars have been observed since 1967 as pulsars, with over 1500 known as of January 2001. The total number of neutron stars in the Galaxy is estimated at $\sim 10^{8} - 10^{9}$, with approximately $10^{5}$ of those being pulsars. Some neutron stars are part of binary systems. When material flows onto a neutron star with a strong magnetic field ($B \sim 10^{10} \, \text{G}$), the phenomenon of an *X-ray pulsar* is observed. If the magnetic field of the neutron star is not as strong, material accumulates on the surface of the neutron star (noting that it exists in a degenerate state). When a certain critical density and temperature threshold is exceeded on the surface of the neutron star, a thermonuclear explosion occurs. These explosions are observed as *X-ray bursters* (or bursting X-ray sources). For more detailed information, see the monographs by S. Shapiro and S. Teukolsky "Black Holes, White Dwarfs and Neutron Stars", Moscow: Mir, 1985, Vol. 2; V. M. Lipunov, "Astrophysics of Neutron Stars", Moscow: Nauka, 1987.## 8.3 Black Holes
+The formation of superdense neutron stars during the collapse of massive star cores accompanying supernova explosions was proposed by astronomers Walter Baade and Fritz Zwicky in 1934, soon after the discovery of the neutron. Single neutron stars have been observed since 1967 as pulsars, with over 1500 known as of January 2001. The total number of neutron stars in the Galaxy is estimated at $\sim 10^{8} - 10^{9}$, with approximately $10^{5}$ of those being pulsars. Some neutron stars are part of binary systems. When material flows onto a neutron star with a strong magnetic field ($B \sim 10^{10} \, \text{G}$), the phenomenon of an *X-ray pulsar* is observed. If the magnetic field of the neutron star is not as strong, material accumulates on the surface of the neutron star (noting that it exists in a degenerate state). When a certain critical density and temperature threshold is exceeded on the surface of the neutron star, a thermonuclear explosion occurs. These explosions are observed as *X-ray bursters* (or bursting X-ray sources). For more detailed information, see the monographs by S. Shapiro and S. Teukolsky "Black Holes, White Dwarfs and Neutron Stars", Moscow: Mir, 1985, Vol. 2; V. M. Lipunov, "Astrophysics of Neutron Stars", Moscow: Nauka, 1987.
+## 8.3 Black Holes
 
 Black holes (BH) of stellar mass can form either from the accretion-induced collapse of neutron stars in binary systems or from the collapse of the cores of massive single stars. This process is not well understood, even at a qualitative level. It remains unclear whether the formation of a black hole is accompanied by the shedding of a shell (i.e., the phenomenon of a supernova). The total number of black holes in the Milky Way may account for several percent of the number of neutron stars.
 
@@ -2567,7 +2360,8 @@ The luminosity of the accretion disk around a black hole can be expressed as:
 
 $$ L_d = E_{\text{bind}} \frac{dM}{dt} $$
 
-This estimate indicates that accretion onto black holes has the highest known efficiency for converting rest mass into energy in nature. The luminosity of the accretion disk surrounding a black hole is remarkably significant.## 8.4 Pulsars
+This estimate indicates that accretion onto black holes has the highest known efficiency for converting rest mass into energy in nature. The luminosity of the accretion disk surrounding a black hole is remarkably significant.
+## 8.4 Pulsars
 
 Let's take a closer look at solitary rotating neutron stars with strong magnetic fields. This is the best-studied class of neutron stars, comprising around 2000 objects (as of 2002).
 
@@ -2667,111 +2461,15 @@ By evaluating the dipole magnetic moment for a typical field at the surface of a
 
 Approximately 100 radio pulsars are observed in binary systems, typically accompanying white dwarfs. There are some double pulsars with a neutron star as the secondary component. Pulsars paired with black holes have not yet been discovered. Notably, binary pulsars consisting of two neutron stars present significant interest from a fundamental physics standpoint. When the orbital period is sufficiently short (less than 15 hours), notable effects from general relativity must be considered — such as alterations in the physical parameters of the orbit due to the loss of orbital energy and angular momentum via gravitational waves.
 
-The first binary pulsar of this kind, PSR 1913+16, has been studied for over 20 years, with general relativistic effects validated with an accuracy greater than $10^{-5}$. A centennial reduction in the period of this pulsar due to gravitational wave radiation has been reliably established. The American astrophysicists J. Taylor and R. Hulse received the Nobel Prize in Physics in 1993 for their discovery and high-precision long-term observations of this pulsar, which contributed significantly to fundamental physics.## 8.4 Pulsars
+The first binary pulsar of this kind, PSR 1913+16, has been studied for over 20 years, with general relativistic effects validated with an accuracy greater than $10^{-5}$. A centennial reduction in the period of this pulsar due to gravitational wave radiation has been reliably established. The American astrophysicists J. Taylor and R. Hulse received the Nobel Prize in Physics in 1993 for their discovery and high-precision long-term observations of this pulsar, which contributed significantly to fundamental physics.
+## 8.4 Pulsars
 
 ### Literature
 1. S. Shapiro, S. Tykhonov, "Black Holes, White Dwarfs, and Neutron Stars," Moscow: Mir, 1985, Vol. 2;
 2. V.M. Lipunov, "Astrophysics of Neutron Stars," Moscow: Nauka, 1987;
 3. V.S. Beskin, "Radio Pulsars," Uspekhi Fizicheskikh Nauk 169, No. 11 (1999), p. 1169.
 
----
-
-**Publications with keywords:**  
-- [Stars](http://db/search.html?kw=13809)  
-- [Interstellar Medium](http://db/search.html?kw=14142)  
-- [Cosmology](http://db/search.html?kw=15891)  
-- [Theoretical Astrophysics](http://db/search.html?kw=10526)  
-- [Astrophysics](http://db/search.html?kw=16508)
-
-**Publications with terms:**  
-- [Stars](http://db/search.html?words=%E7%E2%E5%E7%E4%FB)  
-- [Interstellar Medium](http://db/search.html?words=%CC%E5%E6%E7%E2%E5%E7%E4%ED%E0%FF%20%F1%F0%E5%E4%E0)  
-- [Cosmology](http://db/search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF)  
-- [Theoretical Astrophysics](http://db/search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%E0%FF%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)  
-- [Astrophysics](http://db/search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)
-
-### See also:
-- ![APOD](http://images.astronet.ru/si/apod.gif) [A black hole destroys a star: animation](http://db/msg/1931410)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Stars, dust, and nebula in NGC 6559](http://db/msg/1904844)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [25 brightest stars in the night sky](http://db/msg/1863796)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Animation: a black hole destroys a star](http://db/msg/1736616)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Decomposition of distant light](http://db/msg/1696356)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Comparison of star sizes](http://db/msg/1415428)  
-- ![APOD](http://images.astronet.ru/si/apod.gif) [The most distant of all known stars?](http://db/msg/1406555)  
-
-[All publications on the same topic >>](http://db/search.html?kw=13809&kw=14142&kw=15891&kw=10526&kw=16508)  
-
----
-
-Readers' opinions: [70](http://db/forums/1170612)  
-
-Rating: 3.1 [votes: 182] 
-
-**Rate this:**  
-- --Rate--  
-- Excellent  
-- Good  
-- Average  
-- Poor  
-- Unsatisfactory  
-
----
-
-[Print Version](http://db/print/msg/1170612/8lec/node6.html)
-
----
-
-**Astrometry** - **Astronomical Instruments** - **Astronomical Education** - **Astrophysics** - **History of Astronomy** - **Cosmonautics, Space Exploration** - **Amateur Astronomy** - **Planets and the Solar System** - **The Sun**  ## 9. Galaxies and Quasars
-
-### Sections
-- [9.1 Galaxies. General Information.](https://db/msg/1170612/9lec/node2.html)
-- [9.2 Quasars and Active Galactic Nuclei.](https://db/msg/1170612/9lec/node3.html)
-- [9.3 The Eddington Limit of Luminosity During Accretion on Compact Relativistic Objects](https://db/msg/1170612/9lec/node4.html)
-- [9.4 Black Holes in the Centers of Normal Galaxies and the Relation Between Black Hole Mass and Bulge Mass](https://db/msg/1170612/9lec/node5.html)
-
----
-
-### Publications with Keywords:
-- [stars](http://search.html?kw=13809) - [Interstellar Medium](http://search.html?kw=14142) - [Cosmology](http://search.html?kw=15891) - [Theoretical Astrophysics](http://search.html?kw=10526) - [Astrophysics](http://search.html?kw=16508)
-
-### Publications with Words:
-- [stars](http://search.html?words=%E7%E2%E5%E7%E4%FB) - [Interstellar Medium](http://search.html?words=%CC%E5%E6%E7%E2%E5%E7%E4%ED%E0%FF%20%F1%F0%E5%E4%E0) - [Cosmology](http://search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF) - [Theoretical Astrophysics](http://search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%E0%FF%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0) - [Astrophysics](http://search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)
-
-### See also:
-- [Black Hole Destroying a Star: Animation](https://db/msg/1931410)
-- [Stars, Dust, and Nebula in NGC 6559](https://db/msg/1904844)
-- [25 Brightest Stars in the Night Sky](https://db/msg/1863796)
-- [Animation: Black Hole Destroying a Star](https://db/msg/1736616)
-- [Decomposition of Distant Light](https://db/msg/1696356)
-- [Comparison of Star Sizes](https://db/msg/1415428)
-- [Farthest Star Known?](https://db/msg/1406555)
-
-[All Publications on the Same Topic >>](http://search.html?kw=13809&kw=14142&kw=15891&kw=10526&kw=16508)
-
----
-
-### Reader Feedback
-*Rating: 3.1 [Votes: 182]*
-
----
-
-### Print Version
-[Printable Version](https://db/print/msg/1170612/9lec/node1.html)
-
----
-
-### Topics of Interest
-- **[Astrometry](https://db/sect/300000007)** 
-- **[Astronomical Instruments](https://db/sect/300000010)** 
-- **[Astronomical Education](https://db/sect/1168516)** 
-- **[Astrophysics](https://db/sect/300000003)** 
-- **[History of Astronomy](https://db/sect/300000016)** 
-- **[Cosmonautics, Space Exploration](https://db/sect/300000012)** 
-- **[Amateur Astronomy](https://db/sect/300000013)** 
-- **[Planets and the Solar System](https://db/sect/300000005)** 
-- **[The Sun](https://db/sect/300000004)** 
-
----## 9.1 Galaxies. General Information.
+## 9.1 Galaxies. General Information.
 
 The formation of large-scale structures is a consequence of the growth of small density perturbations due to gravitational instability. As will be demonstrated in Lecture 12, the characteristic Jeans masses immediately after the recombination epoch lie in the range of $10^{6} - 10^{12} M_{\odot}$, extending from the scale of globular star clusters to galaxy clusters. We have also noted that the structure of the Universe could not have formed without the presence of dark matter. According to current understanding, the formation of observable galaxies and stars began at redshifts $z < 10$. Recent observations (1996-1997) from the Hubble Space Telescope and other studies suggest that the peak rate of star formation may have occurred at redshifts $z_{max} \sim 1.5 - 2$, reaching about $\sim 10M_\odot$ per year in a typical galaxy with a mass on the order of $10^{11} M_{\odot}$. The total number of galaxies in the Universe is no less than $10^{10}$ (assuming that visible matter is concentrated in "typical" galaxies of a mass around $10^{11} M_{\odot}$). There exists a large number of faint dwarf galaxies that are difficult to detect. However, the mass fraction contained in them apparently does not exceed that concentrated in giant star systems.
 
@@ -2785,7 +2483,8 @@ In another extreme case, where the angular momentum is initially low, quasi-sphe
 
 In addition to spiral and elliptical galaxies, there exists a relatively small class of irregular (or, as they are also called, irregular) galaxies with an indistinct shape, comprising no more than 10% of all galaxies. Typically, the masses of irregular galaxies are less than $10^{10} M_{\odot}$. These galaxies contain a significant amount of gas (up to 50% of their mass) and engage in active star formation, even though their chemical composition is poor in metals. This indicates their relative youth. An example of irregular galaxies includes the Magellanic Clouds—companions of our Galaxy—located about 60 kpc away.
 
-Due to the great complexity of examining the structure and evolution of galaxies composed of billions of objects, it is challenging to provide a detailed description of all the physical processes occurring within these stellar systems. Therefore, in this area of astrophysics, phenomenological relationships and dependencies—albeit with deep physical content—are frequently employed.## 9.2 Quasars and Active Galactic Nuclei
+Due to the great complexity of examining the structure and evolution of galaxies composed of billions of objects, it is challenging to provide a detailed description of all the physical processes occurring within these stellar systems. Therefore, in this area of astrophysics, phenomenological relationships and dependencies—albeit with deep physical content—are frequently employed.
+## 9.2 Quasars and Active Galactic Nuclei
 
 Galaxies exhibit great diversity. Among them are galaxies with active nuclei, where there is immense energy release. The class of active galactic nuclei includes quasars, Seyfert galaxies, radio galaxies, and BL Lacertae objects.
 
@@ -2917,7 +2616,8 @@ It is evident that the event horizon (gravitational radius) of the black hole va
 
 $$r_g \sim M_{bh}$$ 
 
-The tidal radius increases with black hole mass while remaining less than the event horizon. For a supermassive black hole, we can expect considerable stellar destruction leading to variable accretion rates, which contributes to the overall energetics and output observed in active galactic nuclei and quasars.## 9.3 Eddington Limit of Luminosity During Accretion onto Compact Relativistic Objects
+The tidal radius increases with black hole mass while remaining less than the event horizon. For a supermassive black hole, we can expect considerable stellar destruction leading to variable accretion rates, which contributes to the overall energetics and output observed in active galactic nuclei and quasars.
+## 9.3 Eddington Limit of Luminosity During Accretion onto Compact Relativistic Objects
 
 Let us consider a plasma at a distance $r$ from a star with luminosity $\mathcal{L}$. Suppose the radiation source is isotropic. Then, at a distance $r$, the radiation flux is given by:
 
@@ -2954,7 +2654,8 @@ The critical mass accretion rate is approximately $\dot{M}_{cr} \sim 1 M_{\odot}
 
 A classical example of a binary system in which super-critical accretion onto a compact object occurs is SS433, a massive binary star from which tightly collimated jets of matter are observed, moving at speeds greater than $0.26c$. Binary systems with relativistic jets are referred to as *galactic microquasars*. The compact stars in most of them have masses greater than $3M_{\odot}$ and are reliable candidates for black holes. It seems that super-critical accretion onto a black hole is always accompanied by the formation of relativistic jets; however, the mechanism for their formation is not yet fully understood.
 
-It is also noteworthy that for accretion rates onto a black hole that are much smaller than $\dot{M}_{cr}$, a mode of matter falling can be established such that the heat generated by friction does not manage to escape from the disk as radiation and is dragged along with the matter under the event horizon of the black hole (the so-called *advection-dominated accretion flow*). This specific mode, associated with the presence of a horizon in a black hole, leads to the emission from the accretion disk being significantly less than what is predicted by the standard formula (refer to equation (9.4)). This phenomenon may explain the anomalously low emission from the vicinity of the black hole at the center of our Galaxy and in several other cases.## 9.4 Black Holes in the Centers of Normal Galaxies and the Black Hole - Bulge Mass Relationship
+It is also noteworthy that for accretion rates onto a black hole that are much smaller than $\dot{M}_{cr}$, a mode of matter falling can be established such that the heat generated by friction does not manage to escape from the disk as radiation and is dragged along with the matter under the event horizon of the black hole (the so-called *advection-dominated accretion flow*). This specific mode, associated with the presence of a horizon in a black hole, leads to the emission from the accretion disk being significantly less than what is predicted by the standard formula (refer to equation (9.4)). This phenomenon may explain the anomalously low emission from the vicinity of the black hole at the center of our Galaxy and in several other cases.
+## 9.4 Black Holes in the Centers of Normal Galaxies and the Black Hole - Bulge Mass Relationship
 
 Observations of the central regions of galaxies and quasars from 1995 to 2001, conducted using the Hubble Space Telescope, revealed an important correlation between the dynamically determined mass of the central black hole and the mass of the spheroidal component of the galaxy (in the case of elliptical galaxies, this corresponds simply to the mass of the galaxy itself), as defined by the mass-luminosity relationship:
 
@@ -2968,7 +2669,8 @@ This proportionality indicates a genetic link between the central black hole and
 
 ![Black Hole Mass and Bulge Mass Correlation](https://images.astronet.ru/pubd/2002/05/14/0001176797/9lec/img113.gif)
 
-**Figure 1:** Correlation between black hole mass and bulge mass in galaxies.## 10. Cosmology
+**Figure 1:** Correlation between black hole mass and bulge mass in galaxies.
+## 10. Cosmology
 
 Cosmology studies the physical structure and evolution of the observable part of the Universe (sometimes referred to as the Metagalaxy) on large scales (tens and hundreds of megaparsecs or more) and additionally examines the evolution of our Universe as a whole. Data is collected using standard astrophysical methods by observing the distribution of galaxies and clusters of galaxies (large-scale structure of the Universe) in various wavelength ranges, and separately, the properties (temperature and its spatial fluctuations) of the cosmic microwave background radiation. Moreover, cosmological models are constructed for the Universe as a whole—logically consistent frameworks based on current theoretical understandings of spacetime (theory of gravity) and elementary particles, describing the entire set of known observational facts about the Universe with minimal arbitrary assumptions. 
 
@@ -2976,7 +2678,8 @@ In our general overview, we will employ the most developed cosmological models b
 
 ![Cosmological Diagram](https://images.astronet.ru/pubd/2002/05/14/0001176797/10lec/img7.gif) 
 
-**Figure: Energy Levels in Cosmology**## 10. Friedmann Cosmology
+**Figure: Energy Levels in Cosmology**
+## 10. Friedmann Cosmology
 
 In this section, we will examine homogenous and isotropic cosmological models of the universe, first considered by A.A. Friedmann in 1922, which bear his name.
 
@@ -3078,7 +2781,8 @@ $$\rho' = \rho + 3P$$
 
 Then the equation of motion is modified to account for this additional pressure influence, affecting the dynamics and evolution of the universe's structure. 
 
-This concludes our examination of these crucial concepts in Friedmann cosmology, establishing the foundation for understanding the grand scale dynamics of our universe.## 10.2 Models of Friedmann with Cosmological Constant
+This concludes our examination of these crucial concepts in Friedmann cosmology, establishing the foundation for understanding the grand scale dynamics of our universe.
+## 10.2 Models of Friedmann with Cosmological Constant
 
 As previously noted, current data convincingly suggest that a significant portion of the total energy in the Universe exists in the form of a cosmological constant (with an effective equation of state $P = -\epsilon$) or hypothetical quintessence, represented by $$- \frac{1}{3} \epsilon > P > - \epsilon$$. Therefore, below we present the main formulas of the homogeneous and isotropic Universe model (the Friedmann-Robertson-Walker model) with a cosmological constant for reference.
 
@@ -3136,7 +2840,8 @@ $$a(t) = a_0 t^{\frac{2}{3}}$$
 
 as can be derived under considerations of our cosmological model. 
 
-This lecture lays the groundwork for understanding the dynamics of cosmic expansion under the influence of a cosmological constant or other forms of energy density, which is crucial in our exploration of the Universe's past and future trajectories.### Literature
+This lecture lays the groundwork for understanding the dynamics of cosmic expansion under the influence of a cosmological constant or other forms of energy density, which is crucial in our exploration of the Universe's past and future trajectories.
+### Literature
 
 1. Ya.B. Zel'dovich, I.D. Novikov, *Structure and Evolution of the Universe*. Moscow: Nauka, 1975.
 
@@ -3144,83 +2849,7 @@ This lecture lays the groundwork for understanding the dynamics of cosmic expans
 
 3. A.D. Chernin. *Cosmic Vacuum*. 2001, Uspekhi Fizicheskikh Nauk, Vol. 171, p. 1153.
 
----
-
-### Figure Captions
-
-<div align="center">
-![Black hole destroys star: animation](http://images.astronet.ru/si/apod.gif)  
-[Black hole destroys star: animation](http://images.astronet.ru/msg/1931410)  
-</div>
-
-<div align="center">
-![Stars, dust, and nebula in NGC 6559](http://images.astronet.ru/si/apod.gif)  
-[Stars, dust, and nebula in NGC 6559](http://images.astronet.ru/msg/1904844)  
-</div>
-
-<div align="center">
-![25 brightest stars in the night sky](http://images.astronet.ru/si/apod.gif)  
-[25 brightest stars in the night sky](http://images.astronet.ru/msg/1863796)  
-</div>
-
-<div align="center">
-![Animation: Black hole destroys star](http://images.astronet.ru/si/apod.gif)  
-[Animation: Black hole destroys star](http://images.astronet.ru/msg/1736616)  
-</div>
-
-<div align="center">
-![Decomposition of distant light](http://images.astronet.ru/si/apod.gif)  
-[Decomposition of distant light](http://images.astronet.ru/msg/1696356)  
-</div>
-
-<div align="center">
-![Comparison of star sizes](http://images.astronet.ru/si/apod.gif)  
-[Comparison of star sizes](http://images.astronet.ru/msg/1415428)  
-</div>
-
-<div align="center">
-![The farthest known star?](http://images.astronet.ru/si/apod.gif)  
-[The farthest known star?](http://images.astronet.ru/msg/1406555)  
-</div>## 11. Cosmology (continued)
-
----
-
-### Sections
-
-- 11.1 Light Propagation. Redshift
-- 11.2 The Hot Universe
-- 11.3 Primordial Nucleosynthesis ("the first three minutes")
-- 11.4 Cosmic Microwave Background Radiation and the Era of Recombination
-- 11.5 Fluctuations in the Cosmic Microwave Background Radiation
-
----
-
-**Publications with keywords:**  
-- [Stars](https://example.com/db/search.html?kw=13809)  
-- [Interstellar Medium](https://example.com/db/search.html?kw=14142)  
-- [Cosmology](https://example.com/db/search.html?kw=15891)  
-- [Theoretical Astrophysics](https://example.com/db/search.html?kw=10526)  
-- [Astrophysics](https://example.com/db/search.html?kw=16508)  
-
-**Publications with phrases:**  
-- [Stars](https://example.com/db/search.html?words=%E7%E2%E5%E7%D4%FB)  
-- [Interstellar Medium](https://example.com/db/search.html?words=%CC%E5%E6%E7%E2%E5%E7%D0%ED%D0%D0%D0%20%F1%F0%E5%E4%D0)  
-- [Cosmology](https://example.com/db/search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF)  
-- [Theoretical Astrophysics](https://example.com/db/search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%D0%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%D0)  
-- [Astrophysics](https://example.com/db/search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%D0)  
-
-### See also:
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Black Hole Destroys Star: Animation](https://example.com/db/msg/1931410)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Stars, Dust, and Nebula in NGC 6559](https://example.com/db/msg/1904844)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [25 Brightest Stars in the Night Sky](https://example.com/db/msg/1863796)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Animation: Black Hole Destroys Star](https://example.com/db/msg/1736616)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Decomposition of Distant Light](https://example.com/db/msg/1696356)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Comparison of Star Sizes](https://example.com/db/msg/1415428)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Farthest Known Star?](https://example.com/db/msg/1406555)
-
-[All publications on this topic >>](https://example.com/db/search.html?kw=13809&kw=14142&kw=15891&kw=10526&kw=16508)
-
----## 11.1 Light Propagation. Redshift
+## 11.1 Light Propagation. Redshift
 
 Let's move from discussing mathematical models to actual observed quantities. The primary information from cosmic objects is obtained from the observation of electromagnetic waves (light). 
 
@@ -3292,7 +2921,8 @@ Through these discussions, we can robustly understand key astronomical distances
 
 ---
 
-This concludes our discussion on light propagation, redshift, and the associated principles in cosmology. Further exploration into the expanding Universe will help us uncover the underlying structures and behaviors in our cosmic landscape.## 11.2 Hot Universe
+This concludes our discussion on light propagation, redshift, and the associated principles in cosmology. Further exploration into the expanding Universe will help us uncover the underlying structures and behaviors in our cosmic landscape.
+## 11.2 Hot Universe
 
 The solution of Friedman yields 
 $$\rho \rightarrow \infty$$ 
@@ -3374,7 +3004,8 @@ Annihilation reactions like
 $$e^+ + e^- \leftrightarrow 2 \gamma$$ 
 are quite frequent during such high-energy environments. 
 
-In summary, the evolution of the universe from a hot, dense state involves complicated interactions and changes in density and temperature, governed by both particle physics and cosmological principles.## 11.3 Primordial Nucleosynthesis ("The First Three Minutes")
+In summary, the evolution of the universe from a hot, dense state involves complicated interactions and changes in density and temperature, governed by both particle physics and cosmological principles.
+## 11.3 Primordial Nucleosynthesis ("The First Three Minutes")
 
 At temperatures greater than $1 \text{ MeV}$, atomic nuclei could not exist, as they were effectively destroyed in collisions with photons, electrons, and positrons. Only protons and neutrons were present. As the Universe expanded and cooled ($T \sim t^{-1/2}$), the concentration of neutrons decreased according to the Boltzmann distribution in an equilibrium gas:
 
@@ -3415,7 +3046,8 @@ According to modern particle physics theories, neutrinos can have a rest mass. R
 
 $$\Delta m^{2} \sim 2.2 \times 10^{-3} \text{ eV}^2$$
 
-Interestingly, with a rest mass of around $m_{\nu} \sim 0.1 \text{ eV}$, the contribution of neutrinos to the total density in the Universe becomes comparable to the contribution of baryons in luminous matter in stars!## 11.4 Cosmic Microwave Background and the Era of Recombination
+Interestingly, with a rest mass of around $m_{\nu} \sim 0.1 \text{ eV}$, the contribution of neutrinos to the total density in the Universe becomes comparable to the contribution of baryons in luminous matter in stars!
+## 11.4 Cosmic Microwave Background and the Era of Recombination
 
 A significant triumph of Gamow's hot universe theory came with the discovery in 1967 of an isotropic background of microwave cosmic (relic) radiation, characterized by a Planck spectrum with a temperature of approximately $T_0 \approx 2.73$ K. As the universe expands, the density of non-relativistic particles changes as 
 
@@ -3461,7 +3093,8 @@ validating that relic background photons with a temperature
 
 $$T_r \approx 3000 \text{ K}$$ 
 
-act as a pump for the corresponding energy levels.## 11.5 Fluctuations of the Cosmic Microwave Background Radiation
+act as a pump for the corresponding energy levels.
+## 11.5 Fluctuations of the Cosmic Microwave Background Radiation
 
 An important result obtained in recent years pertains to the measurements of temperature fluctuations in the cosmic microwave background (CMB) radiation at various angular scales. The existence of fluctuations in temperature (and thus intensity) of the CMB is inevitable in the hot Big Bang model, as density fluctuations were also inevitable, which subsequently formed all the observed large-scale structure due to gravitational instability. Due to the conservation of specific entropy, we have:
 
@@ -3518,7 +3151,8 @@ Lastly, we note the significance of the second and subsequent peaks in the angul
 1. Ya.B. Zel'dovich, I.D. Novikov. **Structure and Evolution of the Universe.** Moscow, Nauka, 1975.
 2. S. Weinberg. **Gravitation and Cosmology.** Moscow, Mir, 1973.
 3. S. Weinberg. **The First Three Minutes.** Moscow, Atomizdat, 1983.
-4. Peebles, P. J. E. **Principles of Physical Cosmology.** Princeton Series in Physics, Princeton, NJ: Princeton University Press.## 12. Cosmology (Continuation II)
+4. Peebles, P. J. E. **Principles of Physical Cosmology.** Princeton Series in Physics, Princeton, NJ: Princeton University Press.
+## 12. Cosmology (Continuation II)
 
 ### 12.1 Difficulties of Classical Cosmology
 ### 12.2 Model of the Inflationary Universe
@@ -3529,323 +3163,6 @@ Lastly, we note the significance of the second and subsequent peaks in the angul
 
 ### 11.5 Fluctuations of the Cosmic Microwave Background Radiation
 
----
-
-#### Publications with Keywords:
-- [Stars](https://example.com) - [Interstellar Medium](https://example.com) - [Cosmology](https://example.com) - [Theoretical Astrophysics](https://example.com) - [Astrophysics](https://example.com)
-
-#### Publications with Terms:
-- [Stars](https://example.com) - [Interstellar Medium](https://example.com) - [Cosmology](https://example.com) - [Theoretical Astrophysics](https://example.com) - [Astrophysics](https://example.com)
-
-#### Also See:
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Black Hole Destroys Star: Animation](https://example.com)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Stars, Dust, and Nebula in NGC 6559](https://example.com)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [25 Brightest Stars in the Night Sky](https://example.com)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Animation: Black Hole Destroys Star](https://example.com)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Decomposition of Distant Light](https://example.com)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Comparison of Stellar Sizes](https://example.com)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [The Most Distant Star Known?](https://example.com)
-
-### All publications on this topic >> 
-
----
-
-**Reader Opinions** [70]
-
-### Rating: 3.1 [votes: 182]
-- Rate: 
-  - [Excellent](https://example.com)
-  - [Good](https://example.com)
-  - [Average](https://example.com)
-  - [Poor](https://example.com)
-  - [Unsuitable](https://example.com)
-
----
-
-[Print Version](http://images.astronet.ru/img/print.gif)
-
----
-
-**Astrometry** - **Astronomical Tools** - **Astronomical Education** - **Astrophysics** - **History of Astronomy** - **Space Exploration** - **Amateur Astronomy** - **Planets and the Solar System** - **The Sun**## 12.1 Difficulties of Classical Cosmology
-
-The coherent theory of Friedmann cosmology, which includes the Robertson-Walker metric and non-stationary solutions to Einstein's equations, models a hot Universe characterized by primordial nucleosynthesis and explanations for the cosmic microwave background radiation, has been substantiated by extensive astronomical observations. However, it quickly encountered several difficulties. In brief, these issues arise from the fact that the scale factor of the Universe $a(t)$ increases too slowly over time (as $\sqrt{t}$ or $t^{\frac{2}{3}}$ in a flat model), which leads to significantly large scale factors $a(t)$ corresponding to small times in the past. The paradoxes of classical cosmology are resolved in the inflationary Universe model, which posits that during the earliest stages of evolution, the scale factor increased exponentially:
-
-$$
-a(t) = a_0 e^{Ht}
-$$
-
-## 12.1.1 Horizon Problem (Causality Issue)
-
-The cosmic microwave background radiation is observed isotropically from all directions in the sky. After the moment of recombination ($z_r \approx 1000$, $t_r \sim 10^{12} - 10^{13}$ s), it interacts minimally with matter in the expanding Universe. The physical size of the horizon at the time of recombination is approximately $l_h \approx c t_r$. Consequently, regions of the sky with angular sizes $\theta \sim (1 + z_r)\left(\frac{t_r}{t_0}\right) \approx 2^\circ$ turn out to be causally disconnected from each other. Then why do we observe such an isotropic distribution of matter and cosmic microwave background radiation? In Friedmann models, the horizon grows proportionally to the time elapsed since the beginning of the expansion, thus in the future, any regions will inevitably "come under the horizon."
-
-Reformulating the horizon problem in terms of the Universe's entropy reveals that the contemporary entropy is concentrated in relativistic particles (photons, neutrinos). The dimensionless entropy (i.e., in units of Boltzmann's constant $k_B$) in one volume unit for relativistic particles (whether bosons or fermions) is given by
-
-$$
-s \approx 4(n_{\gamma} + n_{\nu} + n_{\bar{\nu}} + \ldots)
-$$
-
-For photons and neutrinos, we have $n_{\gamma} + \sum_{\nu} n_{\nu} \approx 500 + 400 = 900$. Hence, the entropy of the Universe within today's horizon is:
-
-$$
-S_U \sim \left( \frac{c}{H_0} \right)^{3}s \sim 10^{90}
-$$
-
-Furthermore, the number density of relativistic particles is given by $n \sim T^3$. This leads us to the estimate for the entropy within the horizon
-
-$$
-S_{HQR} \sim \left( \frac{c}{H} \right)^{3} T^3.
-$$
-
-Using the relation $\varepsilon = \alpha_{r} T^{4}$ and the assumptions about the expansion rate, it follows that 
-
-$$
-\frac{H^2}{G} \sim \frac{H^2 m_{Pl}^2}{T^4} \rightarrow H \sim \frac{T^2}{m_{Pl}}.
-$$
-
-This implies the Planck mass
-
-$$
-m_{pl} = \sqrt{\frac{hc}{G}} \approx 10^{-5}.
-$$
-
-If we consider the entropy in terms of the Planck length, we find 
-
-$$
-S_{HQR} \sim \left( \frac{m_{pl}}{T} \right)^{3} \sim 1.
-$$
-
-If there was an epoch of exponential growth of the scale factor, any initially causally connected regions would quickly "spread out" to distances greater than $ \frac{c}{H}$, leading to a situation where these areas appear causally disconnected during later stages of slower growth.
-
-## 12.1.2 The Flatness Problem
-
-This problem revolves around the extraordinary closeness of the density to the critical density ($\Omega_{0} = 1$) at the early stages of evolution. Consider this straightforward reasoning: if we assume that the quantum "birth" of the Universe occurred at 
-
-$$
-t \sim 10^{-43} \text{ s},
-$$ 
-
-then the natural curvature radius of the Universe at birth is 
-
-$$
-R \sim 10^{-33} \text{ cm}.
-$$ 
-
-If we estimate the Universe's expansion occurring according to a power law 
-
-$$
-a(t) \sim t^{\alpha}, \; \alpha < 1,
-$$ 
-
-then by the present moment ($t \sim 10^{10}$ years), the curvature radius would have grown to sizes significantly larger than expected.
-
-Similar backward estimations reveal that currently, the curvature radius is $R \sim 10^{-2}$ cm, and earlier any evolutionary state leads to the curvature radius being on the order of the horizon size $l_H$, which implies that at that epoch, the Universe behaves flat with a precision of about $10^{-60}$.
-
-Ultimately, applying more precise quantitative analysis leads to the Friedmann equation for the scale factor written in terms of the density parameter:
-
-$$
-\left| \Omega - 1 \right| \sim t^{2(1-\alpha)} \rightarrow +\infty \text{ as } t \to \infty.
-$$
-
-Consequently, the Universe's density appears to converge towards a critical density, implying 
-
-$$ 
-\Omega = \mathcal{O}(1).
-$$## 12.2 The Inflating Universe Model
-
-The main idea of the inflating universe model (A.D. Linde, A. Gus, A.A. Starobinsky) is that in the very early universe, there existed an unusual form of matter that created "antigravity," causing the universe to expand at an accelerated rate. Antigravity itself should not be perceived as something miraculous; we must recall that, within the framework of General Relativity (GR), the source of the gravitational field is not only matter but also pressure (momentum flux). There is no physical law that forbids having negative pressure. Moreover, modern elementary particle physics suggests the existence of scalar fields, one of the properties of which is the realization, under certain conditions, of an equation of state $p = -\epsilon$ (where pressure is negative!).
-
-If such a field arises in an arbitrarily small region of the universe during its early stages, this results in an equation of state such that the scale factor of that region grows exponentially over time:
-
-$$a(t) \sim e^{Ht},$$ 
-
-where $H = \dot{a}/a$ is the Hubble constant. The solution of the type (12.1) with $\epsilon$ constant was obtained by the Dutch physicist Willem de Sitter in 1917 from Einstein's equations with a cosmological constant, and it bears his name. 
-
-Negative pressure effectively acts as "antigravity," causing the universe to expand very rapidly. We will clarify this point in more detail. From the Friedmann equations (see Lecture 10), we have:
-
-$$\frac{d^2 a}{dt^2} = -\frac{4 \pi G}{3} \left( \rho + \frac{3p}{c^2} \right) a,$$
-
-and 
-
-$$\frac{d\rho}{dt} = -3H\left(\rho + \frac{P}{c^2}\right).$$
-
-The exponential growth of the size of a region with constant density means an increase in mass (energy) within that region "from nothing," which at first glance might seem strange. However, there is no violation of the law of conservation of energy here—the increase in positive energy is precisely compensated by the negative energy of the gravitational field created by the "emerging" positive energy within the expanding region. Thus, during inflationary expansion, total energy is conserved.
-
-More formally, we can consider the thermodynamic relationship (the first law of thermodynamics, the law of conservation of energy). Since entropy must be conserved during expansion $dS = 0$, the change in energy in a volume element is compensated by the work of pressure forces:
-
-$$d(\varepsilon V) + pdV = 0,$$
-
-leading to
-
-$$deV + \epsilon dV - \epsilon dV = 0.$$
-
-The antigravitating state is fundamentally unstable; it "decays" exponentially, like the radioactive decay of nuclei, into ordinary gravitational matter. The characteristic decay time of this unstable state is defined as the Hubble time $\frac{1}{H}$. Upon decay, relativistic particles of ordinary matter (leptons, quarks, and their supersymmetric partners) are produced. Collisions and interactions among them quickly lead to the establishment of thermodynamic equilibrium with the equation of state for relativistic matter $p = +\frac{\epsilon}{3}$. 
-
-To resolve the paradoxes of Friedman cosmology mentioned earlier, it is sufficient for inflation to continue for about 70 Hubble times. During this period, the scale factor increases by approximately $e^{70} \approx 10^{30}$, and by the beginning of the Friedmann stage, the scale factor is about $10^{-33} \times 10^{30} = 10^{-3}$ cm, which is necessary to solve the horizon problem. The initial density, with a required accuracy of $\Omega_{\text{tot}} \rightarrow 1$, naturally turns out to equal 1 (resolving the flatness problem). Due to the exponential growth of the scale factor, initial quantum fluctuations leave the horizon (which grows slower than the exponential) and later (when the scale factor grows as a power of $t$) re-enter beneath the horizon (which grows proportionally to time since the beginning of Friedmann expansion), now amplified by the expansion. This generates the initial spectrum of perturbations necessary for structure formation in the universe.
-
-Thus, the inflation stage within the time $T \sim 10^{16}$ prepares the initially very hot matter in regions about 0.01 cm in size, which expands in an inertial manner with a scale factor growing like $a(t) = a_0 \exp\left( \sqrt{\frac{8\pi G \rho}{3}} t \right)$. This is nothing other than the hot universe model ("Big Bang"). Now it is clear that the role of the "explosion" was played by the inflation stage.
-
-To summarize, here are the arguments supporting the reality of the inflationary expansion stage before the Friedmann stage in the early universe:
-
-1. High entropy of the universe ($S \sim 10^{16}$). In the inflationary model, such a high number arises "at the cost" of the 70-fold exponential growth of the scale factor. A number on the order of 100 is easier to explain in the future based on a more fundamental theory.
-
-2. The presence of homogeneous and isotropic Hubble expansion arises naturally as a consequence of the action of antigravity in the early universe.
-
-3. The homogeneity and isotropy of the universe on large scales (the horizon problem) are explained by the causal connection of all fluctuations during the pre-inflationary period.
-
-4. The closeness (exact equality?) of the total density to the critical density (the flatness problem). Regardless of the initial value $\rho$, during the inflation stage $\rho = \epsilon = \text{const}$ with the required accuracy.
-
-5. The absence of magnetic monopoles (particles with masses on the order of $10^{16}$ GeV, predicted by Dirac). In the standard Big Bang model, such monopoles would have been produced at about $10^{16}$ GeV, and would currently dominate the universe with an absurd density excess of $10^{-34}$. In the inflationary model, monopoles formed during the pre-inflationary epoch are "spread out" during the exponential expansion over vast distances, making their number "safely small" within the modern horizon.
-
-6. Phase oscillations of perturbations in the relic radiation at different angular scales (Sakharov oscillations). This is a direct indication of the origin of primary fluctuations within causally linked areas in the pre-inflationary period.
-
-In conclusion, let us briefly touch on the widely discussed model of eternal inflation. Its essence lies in the fact that once initiated in some place in the universe, inflation cannot cease. Indeed, unlike radioactive decay, the decay of the antigravitating substance into ordinary matter during inflation leads to exponential growth of the region occupied by inflation, in which the area occupied by ordinary matter is exponentially small (since ordinary matter expands increasingly slowly or even enters a phase of dynamic dominance of the cosmological constant with acceleration, but lesser than the initial). Thus, it appears that the entire universe is filled with a decaying inflationary phase, within which there exists an infinite number of causally disconnected "islands" of ordinary matter ("our universe" is just one of these islands).## 12.3 Growth of Small Perturbations
-
-The growth of small initial density perturbations and metric fluctuations (gravitational waves) in an expanding Universe is determined by the dynamic interaction of perturbations with the changing scale factor (parametric resonance). All wavelengths change proportionally to the scale factor $\lambda(t) = l_h(t)$. In the radiation-dominated phase of expansion (where the pressure $P = \frac{1}{3} \rho$), density perturbations with wavelengths shorter than the horizon do not grow—they manifest as acoustic oscillations whose amplitude does not increase due to dissipative processes. The amplitude of density fluctuations with wavelengths longer than the horizon $\lambda_h$ grows proportionally to the square of the scale factor,
-
-$$\delta \rho \sim \rho_0\, a^2(t).$$ 
-
-In the matter-dominated stage (non-interacting particles), the amplitude of perturbations increases like the scale factor:
-
-$$\delta \rho \sim \rho_0\, a(t).$$ 
-
-Metric fluctuations (gravitational waves) with scales larger than the horizon do not grow, maintaining a constant amplitude (E.M. Lifshitz, 1946).
-
-**Figure 12.1**: The growth of the scale factor $a(t)$ and the Hubble length $l_H$ as a function of time during the de Sitter (inflation) and Friedman expansion phases. The upper graph is in terms of physical length, while the lower one is in comoving coordinates. The comoving Hubble coordinate corresponds to a particle whose recession speed equals the speed of light during expansion. During inflation, the comoving Hubble length exponentially decreases with time, while in the Friedman phase, it increases as a power of time. This indicates that arbitrary wavelengths during the inflation phase exponentially exceed the horizon before eventually "returning" beneath it in the Friedman phase.
-
-The growth of perturbations presented a problem in classical Friedman cosmology. Indeed, due to the slow growth of the scale factor, perturbations with wavelength $\lambda_{cut}$ enter the horizon at any given moment. In the radiation phase, their growth ceases due to dissipative processes. At the moment of recombination, there should exist a spectrum of density fluctuations linked to the spectrum of temperature fluctuations of the cosmic background radiation (since specific entropy $s \sim \frac{T^3}{\rho} = \text{const}$). After recombination, density fluctuations grow as the scale factor while temperature fluctuations remain unchanged. Therefore, from today's measurements of $\frac{\delta T}{T}$, one can infer about the density fluctuations at the moment of recombination. The fact that fluctuations in the relic radiation are isotropic (even though the angular scale of the horizon at the moment of recombination was approximately 2 degrees) is naturally explained in the model of the inflationary Universe, since in the past (before the inflation period), these regions were causally connected. Exponentially small fluctuations grow and drift far beyond the horizon during inflation, thereby explaining Figure 12.1.
-
-### 12.3.1 Gravitational (Jeans) Instability
-
-The origin of structures in the Universe can be traced back to the development of gravitational instability from small perturbations. Gravitational instability was quantitatively analyzed by Jeans in 1902. The physical cause of this instability is gravitational attraction. If a small fluctuation $\delta \rho$ with characteristic size $R$ arises in the background of uniform density $\rho$, it will grow if the gravitational attraction $F_{gravity}$ exceeds the pressure gradient $F_{pressure}$. Roughly speaking, equilibrium is disrupted when the characteristic time $\tau_{instability}$ for the development of instability (the free-fall time) is less than the time taken for perturbations to propagate through the medium, $\tau_{sound}$, where $c_s$ is the sound speed. In simpler terms, if the scale of the perturbations (the characteristic length) is larger than the critical (Jeans) value,
-
-$$\lambda_J \sim \frac{c_s}{\sqrt{G \rho}},$$
-
-the growth of density begins. The precise value of the critical wavelength, derived by Jeans, is greater than this simple estimate by a factor of order $2\pi$.
-
-For an ideal gas $\rho$, we have:
-
-$$s \sim \frac{T^3}{\rho}.$$
-
-There is often talk of the Jeans mass—the amount of matter contained in a volume with characteristic size $R$:
-
-$$M_J = \rho V \sim \rho R^3.$$
-
-Any arbitrary small density perturbation can always be expressed as a Fourier series, allowing us to track the behavior of individual harmonics. If at least one harmonic grows with time, it will indicate instability. The exact solution (Jeans) gives for the harmonics with wave vectors $k = \frac{2\pi}{\lambda}$ the relation:
-
-$$\frac{\delta \rho_k}{\rho_0} = A_k e^{\gamma t + i k x}$$
-
-where 
-
-$$\gamma = \pm \sqrt{4\pi G \rho_0 - k^2 c_s^2}.$$
-
-These solutions tell us that the perturbations' growth resembles the form 
-
-$$\delta \rho \approx \rho_0 e^{\gamma t} \int d^3 k A_k e^{i k \cdot x} = \rho_0 e^{\gamma t} f(x),$$ 
-
-indicating that 
-
-$$\frac{\delta \rho}{\rho} \sim e^{\gamma t}.$$
-
-In a radiation-dominated plasma, the situation is notably different. If we consider the usual density $\rho \sim \frac{1}{(1+z)^3}$ at the time of recombination, the corresponding sound speed $c_s$ and the perturbation's scale leads to the case where the perturbations with wavelengths $\lambda < \lambda_J \sim h$ become relevant.
-
-At larger scales ($\lambda > h \sim ct$), we find that the density perturbations $\frac{\delta \rho}{\rho} \sim a^2(t)$, and when $\lambda \sim h$, they behave like $\delta \rho / \rho \sim a(t) \sim t^{2/3}$. 
-
-With the understanding of sound speed and mass of hydrogen:
-
-$$v \sim \sqrt{\frac{k_B T}{m_H}}$$,
-
-and the determination of conditions during the era after recombination, we find that fluctuations above a critical scale must have been in a rapid growth phase. However, due to the dissipation of short-wavelength perturbations in the plasma at the moment of recombination, only those fluctuations larger than a characteristic mass scale survive, thus enabling the development of structures like galaxy clusters.## 12.4 Formation of Large-Scale Structure in the Universe
-
-The large-scale structure of the Universe (including galaxies, galaxy clusters, and voids with sizes of approximately 100 Mpc) arises from small density perturbations. When the contrast in density approaches 
-
-$$\frac{\delta \rho}{\rho} \sim 1$$ 
-
-the perturbation ceases to participate in the cosmological expansion and can form a gravitationally bound system. It is crucial to note that the nonlinear stage of growth of these perturbations leads to preferential compression along one direction, resulting in the formation of flattened structures, known as the "Zel'dovich pancakes." When these pancakes cross each other, they create a cellular structure. In areas of highest density, galaxy clusters are formed. Evidently, the observed large-scale structure could not have developed without the involvement of dark matter — an invisible substance that manifests only through its gravitational interactions. Indeed, from the fluctuations in the temperature of the cosmic microwave background radiation, we know that the density fluctuations at the time of recombination were 
-
-$$\left( \frac{\delta \rho}{\rho} \right)_{r} \sim 10^{-5}.$$ 
-
-After recombination, these fluctuations grow proportional to the scale factor. Thus, by the time 
-
-$$z \approx 1,$$ 
-
-they can have increased by a factor of $\sim 1000$, reaching a level of 
-
-$$10^{-2}.$$ 
-
-This is entirely insufficient (by two orders of magnitude!) to initiate gravitational instability and the formation of structures! This fact strongly supports the existence of dark matter, which interacts with normal matter solely through gravity. It is the density fluctuations of dark matter (which were two orders of magnitude larger at the time of recombination) that created potential wells into which normal matter "flowed," leading to the formation of galaxies and galaxy clusters. The observed large-scale structure is presented in Figure 12.2. The results of numerical simulations of large-scale structure in the cold dark matter model are shown in Figure 12.3.
-
-According to contemporary views, the preferred model for structure formation is that of so-called cold dark matter (CDM) (including axions and neutralinos). It is also possible that a non-zero cosmological constant plays a significant role. For more details, see A. Dolgov, Ya.B. Zel'dovich, M.V. Sazhin, "Cosmology of the Early Universe," Moscow State University Press, 1988.
-
-<div align="CENTER"><a name="lss_obs"></a><a name="9297"></a>
-<table align="center" width="50%">
-<tr><td>![](./imgs/404c8d05c2064a07acc9634894914b57_img1805.png)</td></tr>
-<tr><td>Figure 12.2
-The observed large-scale structure of the Universe in terms of a "slice" of the galaxy distribution by redshift (in units of speed of recession). The lower scale presents a one-dimensional "slice" of the structure by redshift (distance to galaxies). Distinct galaxy clusters, filamentary structures, and voids with sizes of $\sim 100$ Mpc are clearly visible.</td></tr>
-</table>
-</div>
-
-<div align="CENTER"><a name="lss_calc"></a><a name="9291"></a>
-<table align="center" width="50%">
-<tr><td>![](./imgs/e79887aba5344a46a05a8f53f7231beb_img1806.png)</td></tr>
-<tr><td>Figure 12.3
-Result of three-dimensional modeling of the large-scale structure of the Universe in the cold dark matter model, projected onto a portion of the celestial sphere. The points represent individual galaxies.</td></tr>
-</table>
-</div>## 13. Dark Matter and Gravitational Lenses
-
-This lecture is still under preparation. 
-
----
-
-### Publications with Keywords:
-- [Stars](http://db/search.html?kw=13809) - 
-- [Interstellar Medium](http://db/search.html?kw=14142) - 
-- [Cosmology](http://db/search.html?kw=15891) - 
-- [Theoretical Astrophysics](http://db/search.html?kw=10526) - 
-- [Astrophysics](http://db/search.html?kw=16508)
-
-### Publications with Words:
-- [Stars](http://db/search.html?words=%E7%E2%E5%E7%E4%FB) - 
-- [Interstellar Medium](http://db/search.html?words=%CC%E5%E6%E7%E2%E5%E7%E4%ED%E0%FF%20%F1%F0%E5%E4%E0) - 
-- [Cosmology](http://db/search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF) - 
-- [Theoretical Astrophysics](http://db/search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%E0%FF%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0) - 
-- [Astrophysics](http://db/search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)
-
----
-
-### See Also:
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Black Hole Destroys Star: Animation](http://db/msg/1931410)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Stars, Dust, and Nebula in NGC 6559](http://db/msg/1904844)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [25 Brightest Stars in the Night Sky](http://db/msg/1863796)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Animation: Black Hole Destroys Star](http://db/msg/1736616)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Decomposition of Distant Light](http://db/msg/1696356)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [Comparison of Star Sizes](http://db/msg/1415428)
-- ![APOD](http://images.astronet.ru/si/apod.gif) [The Farthest Known Star?](http://db/msg/1406555)
-
-[All publications on this topic >>](http://db/search.html?kw=13809&kw=14142&kw=15891&kw=10526&kw=16508)
-
----
-
-### Reader Feedback
-- Evaluation: 3.1 [Votes: 182]
-
-[Rate this lecture](http://doc/publication_rating.html)
-
----
-
-### Additional Links
-- [Print Version](http://db/print/msg/1170612/node67.html)
-
----
-
-**[Astrometry](http://db/sect/300000007)** - 
-**[Astronomical Instruments](http://db/sect/300000010)** - 
-**[Astronomical Education](http://db/sect/1168516)** - 
-**[Astrophysics](http://db/sect/300000003)** - 
-**[History of Astronomy](http://db/sect/300000016)** - 
-**[Space Exploration and Astronomy](http://db/sect/300000012)** - 
-**[Amateur Astronomy](http://db/sect/300000013)** - 
-**[Planets and the Solar System](http://db/sect/300000005)** - 
-**[The Sun](http://db/sect/300000004)**## 14. Gravitational Wave Astronomy
 
 Up to now, we have primarily examined electromagnetic radiation from cosmic sources. This is the most well-studied form of radiation. As mentioned earlier, neutrino radiation only plays a significant role in the later stages of stellar evolution, right before and during the collapse of a star's core, and immediately after the formation of a neutron star.
 
@@ -3875,7 +3192,8 @@ These properties of gravitational waves enable the observation of processes that
 
 3. Gravitational waves are sure to present unexpected surprises. As the history of science has shown, any new "window into nature" has a revolutionary impact on our understanding of the Universe. This was the case with radio astronomy, which led to the discovery of quasars, pulsars, and cosmic microwave background radiation. These discoveries provided the first observational evidence of neutron stars and black holes and confirmed the "hot Universe" hypothesis.
 
-Thus, the newly emerging field of gravitational wave astronomy is poised to become one of the priority directions in astrophysics in the 21st century.## 14.1 Description
+Thus, the newly emerging field of gravitational wave astronomy is poised to become one of the priority directions in astrophysics in the 21st century.
+## 14.1 Description
 
 According to A. Einstein's theory of gravity (the general theory of relativity, GTR), any energy density can be described in terms of a gravitational field, and the gravitational field itself is intuitively represented as the curvature of the spacetime in which matter exists. This curvature means that the square of the interval between two events in the presence of matter differs from the square of the interval in special relativity. Specifically, coefficients that depend on coordinates and time appear before the square of the time and length elements.
 
@@ -3917,7 +3235,8 @@ Similar to how a charged particle oscillates in the field of a flat electromagne
 
 $$\Delta l \propto h,$$ 
 
-where $l$ is the length of interest, and $h$ is the amplitude of the gravitational wave perturbation.## 14.2 Detection of Gravitational Waves
+where $l$ is the length of interest, and $h$ is the amplitude of the gravitational wave perturbation.
+## 14.2 Detection of Gravitational Waves
 
 As we will see below, the characteristic dimensionless amplitudes of gravitational waves (GWs) from astrophysical sources (such as asymmetric supernova explosions, mergers of binary neutron stars, etc.) are of the order of $h \sim 10^{-21}$. This means that as such a wave passes by, a meter stick changes its length by only $\Delta l \simeq 10^{-19}$ cm, which is many orders of magnitude smaller than the Compton wavelength of a proton!
 
@@ -3950,7 +3269,8 @@ For strictly periodic sources, the frequency band is determined by the uninterru
 
 <div align="CENTER">
 ![Figure 14.4: Spectral noise density of ground and space GW interferometers under construction or planned across a wide frequency range. Expected signal amplitudes from various astrophysical sources are also shown. Figure from B. Schutz, Classical and Quantum Gravity, 1999, in press.](./imgs/4f3cf04a15164fda97579f51d7daad49_img1845.png)
-</div>## 14.3 Radiation of Gravitational Waves
+</div>
+## 14.3 Radiation of Gravitational Waves
 
 Let us consider how and under what conditions gravitational radiation occurs. By analogy with electromagnetism, one might suppose that energy radiation (i.e., the field's amplitude diminishing in space as $\frac{1}{r}$) arises from the change of the "gravitational" dipole moment 
 
@@ -4000,7 +3320,8 @@ $$h_{max} \sim 3 \times 10^{-23}$$
 
 when evaluating near compact structures like black holes. Here, $r_g = \frac{2GM_q}{c^2}$ and we find $\sim 10^{28}$ as the effective radius for our estimations. 
 
-This behavior captures the essence of gravitational wave production in astrophysical scenarios, which is vital for comprehending phenomena such as colliding black holes or neutron stars.## 14.4 Astrophysical Sources of Gravitational Waves
+This behavior captures the essence of gravitational wave production in astrophysical scenarios, which is vital for comprehending phenomena such as colliding black holes or neutron stars.
+## 14.4 Astrophysical Sources of Gravitational Waves
 
 As we have seen, in astrophysics, the characteristic mass of a star is defined by fundamental constants of nature and is typically on the order of about one solar mass. Besides mass, another crucial parameter of a self-gravitating configuration is size or average density $\rho$. The latter determines the characteristic dynamical time—the free-fall time, given by 
 
@@ -4058,7 +3379,8 @@ For this discovery and research of this double pulsar, American astrophysicists 
 
 The strong dependence of the rate of decrease of the orbital period on the period itself ($dP/dt \propto P^{-8/3}$) causes the orbit to shrink at an accelerating pace, suggesting that within a finite time, two stars should come close and merge into one. For two compact neutron stars or black holes, this time is less than the Hubble time; for instance, for the double pulsar PSR 1913+16, it is approximately 100 million years. During the merger process of two compact bodies, the semi-major axis of the orbit is about the size of a star, i.e., several gravitational radii, and the amplitude of the generated gravitational waves is nearly at its maximum possible level.
 
-Thus, merging double neutron stars and black holes are the most promising sources for detection in the next generation of GW detectors. The pressing question is how frequently such catastrophic events occur in the Milky Way. Observationally, there is credible evidence for the existence of several tight pairs of neutron stars, with estimates for the merger rate suggesting on the order of $10^{-6}$ years in the galaxy. However, stellar evolution theory implies that the merger rate for such double systems in the galaxy could be up to one to two orders of magnitude higher, about once every 10–30 thousand years. Therefore, first-generation GW interferometers with sensitivities of $h \sim 10^{-21}$ at a frequency of 100 Hz would be able to detect several such systems operating continuously for one year. An example of the GW amplitude from a merging double system is shown in Figure 14.5.## 14.4 Astrophysical Sources of Gravitational Waves
+Thus, merging double neutron stars and black holes are the most promising sources for detection in the next generation of GW detectors. The pressing question is how frequently such catastrophic events occur in the Milky Way. Observationally, there is credible evidence for the existence of several tight pairs of neutron stars, with estimates for the merger rate suggesting on the order of $10^{-6}$ years in the galaxy. However, stellar evolution theory implies that the merger rate for such double systems in the galaxy could be up to one to two orders of magnitude higher, about once every 10–30 thousand years. Therefore, first-generation GW interferometers with sensitivities of $h \sim 10^{-21}$ at a frequency of 100 Hz would be able to detect several such systems operating continuously for one year. An example of the GW amplitude from a merging double system is shown in Figure 14.5.
+## 14.4 Astrophysical Sources of Gravitational Waves
 
 ### Literature
 
@@ -4068,40 +3390,9 @@ Thus, merging double neutron stars and black holes are the most promising source
 
 3. B. Schutz, *Classical and Quantum Gravity*, 1999, in press.
 
----
 
-### Key Words in Publications:
-- [Stars](http://db/search.html?kw=13809) 
-- [Interstellar Medium](http://db/search.html?kw=14142) 
-- [Cosmology](http://db/search.html?kw=15891) 
-- [Theoretical Astrophysics](http://db/search.html?kw=10526) 
-- [Astrophysics](http://db/search.html?kw=16508)
-
-### Related Publications:
-- [Stars](http://db/search.html?words=%E7%E2%E5%E7%E4%FB)
-- [Interstellar Medium](http://db/search.html?words=%CC%E5%E6%E7%E2%E5%E7%E4%ED%E0%FF%20%F1%F0%E5%E4%E0)
-- [Cosmology](http://db/search.html?words=%CA%EE%F1%EC%EE%EB%EE%E3%E8%FF)
-- [Theoretical Astrophysics](http://db/search.html?words=%F2%E5%EE%F0%E5%F2%E8%F7%E5%F1%EA%E0%FF%20%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)
-- [Astrophysics](http://db/search.html?words=%E0%F1%F2%F0%EE%F4%E8%E7%E8%EA%E0)
-
-### Related Topics:
-- [Black Hole Destroying a Star: Animation](http://db/msg/1931410)
-- [Stars, Dust, and Nebula in NGC 6559](http://db/msg/1904844)
-- [25 Brightest Stars in the Night Sky](http://db/msg/1863796)
-- [Animation: Black Hole Destroying a Star](http://db/msg/1736616)
-- [Decomposition of Distant Light](http://db/msg/1696356)
-- [Comparison of Star Sizes](http://db/msg/1415428)
-- [Farthest of All Known Stars?](http://db/msg/1406555)
-
-### Reader Opinions
-[70 Comments](http://db/forums/1170612)
-
-### Rating
-<b>Rating:</b> 3.1 [Votes: 182]
-
----
-
-For further reading, you may refer to sections on [Astrometry](http://db/sect/300000007), [Astronomical Instruments](http://db/sect/300000010), [Astronomical Education](http://db/sect/1168516), [Astrophysics](http://db/sect/300000003), [History of Astronomy](http://db/sect/300000016), [Space Exploration](http://db/sect/300000012), [Amateur Astronomy](http://db/sect/300000013), [Planets and the Solar System](http://db/sect/300000005), and [The Sun](http://db/sect/300000004).## Table of Contents
+For further reading, you may refer to sections on [Astrometry](http://db/sect/300000007), [Astronomical Instruments](http://db/sect/300000010), [Astronomical Education](http://db/sect/1168516), [Astrophysics](http://db/sect/300000003), [History of Astronomy](http://db/sect/300000016), [Space Exploration](http://db/sect/300000012), [Amateur Astronomy](http://db/sect/300000013), [Planets and the Solar System](http://db/sect/300000005), and [The Sun](http://db/sect/300000004).
+## Table of Contents
 
 - [Table of Contents](#)
 - [1. Introduction: Spacetime Scales in Astrophysics](#)
@@ -4204,11 +3495,6 @@ For further reading, you may refer to sections on [Astrometry](http://db/sect/30
 
 ---
 
-### Publications with Keywords:
-- [Stars](#) - [Interstellar Medium](#) - [Cosmology](#) - [Theoretical Astrophysics](#) - [Astrophysics](#)
-
-### Publications by Terms:
-- [Stars](#) - [Interstellar Medium](#) - [Cosmology](#) - [Theoretical Astrophysics](#) - [Astrophysics](#)## 1. Introduction: Spacetime Scales in Astrophysics
 
 The range of temporal and spatial scales that we encounter in astrophysics is quite broad. Due to the finiteness of the speed of light $c$, there exists a fundamental relationship between the characteristic scales $l$ of the phenomenon under consideration and the characteristic minimal time $t_{\text{min}}$ at which one might expect variations in the electromagnetic radiation generated at that scale:
 
@@ -4229,7 +3515,8 @@ As long as the size of the object being studied is large compared to its gravita
 - A non-rotating black hole has an event horizon radius equal to its gravitational radius, making it a fully relativistic object; 
 - The universe as a whole has a gravitational radius $R_g \sim \frac{c}{H_0}$, where $H_0$ is the current value of the Hubble constant, indicating that it should also be considered within the framework of relativistic theory (General Relativity). 
 
-In summary, understanding the various scales at play in astrophysics not only aids in the comprehension of specific celestial objects and their behaviors but also underscores the need to utilize appropriate theoretical frameworks, especially when the sizes and masses involved approach the relativistic regime.## Table of Contents
+In summary, understanding the various scales at play in astrophysics not only aids in the comprehension of specific celestial objects and their behaviors but also underscores the need to utilize appropriate theoretical frameworks, especially when the sizes and masses involved approach the relativistic regime.
+## Table of Contents
 
 - **Table of Contents**
 - **1. Introduction: Space-Time Scales in Astrophysics**
